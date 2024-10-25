@@ -57,6 +57,19 @@ copy import.bin World_2\WorldMap\2-5.bin
 copy import.bin World_2\WorldMap\2-6.bin
 copy import.bin World_2\WorldMap\2-7.bin
 copy import.bin World_2\WorldMap\2-8.bin
+::World 2-1
+copy import.bin World_2\2_1\2_1_1.bin
+copy import.bin World_2\2_1\2_1_1_Cutscene.bin
+copy import.bin World_2\2_1\2_1_FurniturePickup1.bin
+copy import.bin World_2\2_1\2_1_FurniturePickup2.bin
+copy import.bin World_2\2_1\2_1_FurniturePickup3.bin
+copy import.bin World_2\2_1\2_1_FurniturePickup4.bin
+copy import.bin World_2\2_1\2_1_FurniturePickup5.bin
+copy import.bin World_2\2_1\2_1_FurniturePickup6.bin
+copy import.bin World_2\2_1\2_1_FurniturePickup7.bin
+copy import.bin World_2\2_1\2_1_FurniturePickup8.bin
+copy import.bin World_2\2_1\2_1_FurniturePickup9.bin
+copy import.bin World_2\2_1\2_1_Goal_1.bin
 ::World 3
 copy import.bin World_3\WorldMap\3-1.bin
 copy import.bin World_3\WorldMap\3-2.bin
@@ -280,6 +293,19 @@ Atlas asm\bin\text\World_2\WorldMap\2-5.bin asm\bin\text\World_2\WorldMap\2-5.tx
 Atlas asm\bin\text\World_2\WorldMap\2-6.bin asm\bin\text\World_2\WorldMap\2-6.txt
 Atlas asm\bin\text\World_2\WorldMap\2-7.bin asm\bin\text\World_2\WorldMap\2-7.txt
 Atlas asm\bin\text\World_2\WorldMap\2-8.bin asm\bin\text\World_2\WorldMap\2-8.txt
+::World 2-1
+Atlas asm\bin\text\World_2\2_1\2_1_1.bin asm\bin\text\World_2\2_1\2_1_1.txt
+Atlas asm\bin\text\World_2\2_1\2_1_1_Cutscene.bin asm\bin\text\World_2\2_1\2_1_1_Cutscene.txt
+Atlas asm\bin\text\World_2\2_1\2_1_FurniturePickup1.bin asm\bin\text\World_2\2_1\2_1_FurniturePickup1.txt
+Atlas asm\bin\text\World_2\2_1\2_1_FurniturePickup2.bin asm\bin\text\World_2\2_1\2_1_FurniturePickup2.txt
+Atlas asm\bin\text\World_2\2_1\2_1_FurniturePickup3.bin asm\bin\text\World_2\2_1\2_1_FurniturePickup3.txt
+Atlas asm\bin\text\World_2\2_1\2_1_FurniturePickup4.bin asm\bin\text\World_2\2_1\2_1_FurniturePickup4.txt
+Atlas asm\bin\text\World_2\2_1\2_1_FurniturePickup5.bin asm\bin\text\World_2\2_1\2_1_FurniturePickup5.txt
+Atlas asm\bin\text\World_2\2_1\2_1_FurniturePickup6.bin asm\bin\text\World_2\2_1\2_1_FurniturePickup6.txt
+Atlas asm\bin\text\World_2\2_1\2_1_FurniturePickup7.bin asm\bin\text\World_2\2_1\2_1_FurniturePickup7.txt
+Atlas asm\bin\text\World_2\2_1\2_1_FurniturePickup8.bin asm\bin\text\World_2\2_1\2_1_FurniturePickup8.txt
+Atlas asm\bin\text\World_2\2_1\2_1_FurniturePickup9.bin asm\bin\text\World_2\2_1\2_1_FurniturePickup9.txt
+Atlas asm\bin\text\World_2\2_1\2_1_Goal_1.bin asm\bin\text\World_2\2_1\2_1_Goal_1.txt
 ::World 3
 Atlas asm\bin\text\World_3\WorldMap\3-1.bin asm\bin\text\World_3\WorldMap\3-1.txt
 Atlas asm\bin\text\World_3\WorldMap\3-2.bin asm\bin\text\World_3\WorldMap\3-2.txt
@@ -481,6 +507,8 @@ lzss -ewo asm\bin\text\World_1\1_3\*.bin
 lzss -ewo asm\bin\text\World_1\1_4\*.bin
 ::World 2
 lzss -ewo asm\bin\text\World_2\WorldMap\*.bin
+::World 2-1
+lzss -ewo asm\bin\text\World_2\2_1\*.bin
 ::World 3
 lzss -ewo asm\bin\text\World_3\WorldMap\*.bin
 ::World 4

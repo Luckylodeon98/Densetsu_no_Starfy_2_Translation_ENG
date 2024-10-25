@@ -138,6 +138,43 @@ WorldMap_2_7:
 WorldMap_2_8:
 	.incbin asm/bin/text/World_2/WorldMap/2-8.bin
 ;World 2-1
+.align 4
+World2_1_1:
+	.incbin asm/bin/text/World_2/2_1/2_1_1.bin
+.align 4
+World2_1_1_Cutscene:
+	.incbin asm/bin/text/World_2/2_1/2_1_1_Cutscene.bin
+.align 4
+World2_1_FurniturePickup1:
+	.incbin asm/bin/text/World_2/2_1/2_1_FurniturePickup1.bin
+.align 4
+World2_1_FurniturePickup2:
+	.incbin asm/bin/text/World_2/2_1/2_1_FurniturePickup2.bin
+.align 4
+World2_1_FurniturePickup3:
+	.incbin asm/bin/text/World_2/2_1/2_1_FurniturePickup3.bin
+.align 4
+World2_1_FurniturePickup4:
+	.incbin asm/bin/text/World_2/2_1/2_1_FurniturePickup4.bin
+.align 4
+World2_1_FurniturePickup5:
+	.incbin asm/bin/text/World_2/2_1/2_1_FurniturePickup5.bin
+.align 4
+World2_1_FurniturePickup6:
+	.incbin asm/bin/text/World_2/2_1/2_1_FurniturePickup6.bin
+.align 4
+World2_1_FurniturePickup7:
+	.incbin asm/bin/text/World_2/2_1/2_1_FurniturePickup7.bin
+.align 4
+World2_1_FurniturePickup8:
+	.incbin asm/bin/text/World_2/2_1/2_1_FurniturePickup8.bin
+.align 4
+World2_1_FurniturePickup9:
+	.incbin asm/bin/text/World_2/2_1/2_1_FurniturePickup9.bin
+.align 4
+World2_1_Goal_1:
+	.incbin asm/bin/text/World_2/2_1/2_1_Goal_1.bin
+
 ;World 3
 .align 4
 WorldMap_3_1:
@@ -793,6 +830,42 @@ ShopChest32:
 .org 0x082C2800
 	.word WorldMap_2_8
 ;World 2-1
+.org 0x0814E260
+	.word World2_1_1
+	
+.org 0x0811A964
+	.word World2_1_1_Cutscene
+	
+.org 0x0814E264
+	.word World2_1_FurniturePickup1
+	
+.org 0x0814E268
+	.word World2_1_FurniturePickup2
+	
+.org 0x0814E26C
+	.word World2_1_FurniturePickup3
+	
+.org 0x0814E270
+	.word World2_1_FurniturePickup4
+	
+.org 0x0814E274
+	.word World2_1_FurniturePickup5
+	
+.org 0x0814E278
+	.word World2_1_FurniturePickup6
+	
+.org 0x0814E27C
+	.word World2_1_FurniturePickup7
+	
+.org 0x0814E280
+	.word World2_1_FurniturePickup8
+	
+.org 0x0814E284
+	.word World2_1_FurniturePickup9
+	
+.org 0x082C8994
+	.word World2_1_Goal_1
+	
 ;World 3
 .org 0x082C1FA0
 	.word WorldMap_3_1
