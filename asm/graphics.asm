@@ -12,8 +12,6 @@
 HUDLZSS1:
 	.incbin asm/bin/graphics/Health/1HUDLZSS.bin
 
-;TitleScreen Graphics
-
 ;Moe's (Kyorosuke) House
 .align 4
 MoeHouseOBJ:
@@ -60,11 +58,24 @@ FileSelect_CopyAndErasePopup_Tilemap:
 .align 4
 GameOverOBJ:
 	.incbin asm/bin/graphics/GameOver/1GameOverOBJ.bin
-;World 1-2 Orb Countown
+
 ;World 1-3 Lovely's Shop Sign
+.align 4
+LovelyShop1_3:
+	.incbin asm/bin/graphics/lovelyshop1_3/1lovelyshop1_3OBJ.bin
+
+;World 1-3 Lovely's Pamphlet
+.align 4
+LovelyPamphlet:
+	.incbin asm/bin/graphics/lovelyshop1_3/2lovelypamphletobj.bin
+
+.align 4
+Goalflag4_3: ;GOAL flag 4-3
+	.incbin asm/bin/graphics/goalflag/1goalflag.bin
+
 ;World 5-3 Fruits
 ;------------------------------------------------------
-;Served only for other translations if needed
+;Served only for other translations if needed (YOU ADD THE LOCATION)
 ;.align 4
 ;Banana_Replacement:
 ;	.incbin asm/bin/graphics/Food_Puzzle/Replacements/
@@ -79,11 +90,11 @@ Pumpkin_Replacement:
 
 .align 4
 Persimmon_Replacement:
-	.incbin asm/bin/graphics/Food_Puzzle/Replacements/Persimmon_Replacement/1PersimmonToTofu.bin
+	.incbin asm/bin/graphics/Food_Puzzle/Replacements/Persimmon_Replacement/1PersimmonToTurnip.bin
 
 .align 4
 Cucumber_Replacement:
-	.incbin asm/bin/graphics/Food_Puzzle/Replacements/Cucumber_Replacement/1CucumberToOnion.bin
+	.incbin asm/bin/graphics/Food_Puzzle/Replacements/Cucumber_Replacement/1CucumberToPumpkin.bin
 
 .align 4
 Shell_Replacement:
@@ -104,6 +115,11 @@ Apple_Replacement:
 .align 4
 Food_Sign_Replacement:
 	.incbin asm/bin/graphics/Food_Puzzle/Replacements/Food_Sign_Replacement/1Food_Signs.bin
+	
+;World 5-4 Mole Poster
+.align 4
+Mole_Message:
+	.incbin asm/bin/graphics/MessagefromMole/1MessagefromMole.bin
 
 ;World Selection Screen Graphics
 .align 4
@@ -116,6 +132,25 @@ StuffScreenBG:
 .align 4
 StuffScreenOBJ:
 	.incbin asm/bin/graphics/Stuff_Screen/2StuffScreenOBJ.bin
+;Stuff Screen Outfit and Accessory updates
+.align 4
+BoxOutfit:
+	.incbin asm/bin/graphics/Stuff_Screen/Outfit/1boxoutfit.bin
+.align 4
+BaseballcapAcessory:
+	.incbin asm/bin/graphics/Stuff_Screen/Accessory/1baseballcapaccessory.bin
+.align 4
+BaseballUniformOutfit:
+	.incbin asm/bin/graphics/Stuff_Screen/Outfit/2baseballuniformoutfit.bin
+.align 4
+WrestlingLeotardOutfit:
+	.incbin asm/bin/graphics/Stuff_Screen/Outfit/3wrestlingleotardoutfit.bin
+.align 4
+SwimsuitOutfit:
+	.incbin asm/bin/graphics/Stuff_Screen/Outfit/4swimsuitoutfit.bin
+.align 4
+MotorJacketOutfit:
+	.incbin asm/bin/graphics/Stuff_Screen/Outfit/5motorjacketoutfit.bin
 ;Book Screen
 .align 4
 BookScreenOBJ:
@@ -301,19 +336,112 @@ PausemenuOBJ:
 .align 4
 PausemenuTilemap:
 	.incbin asm/bin/graphics/pausemenu/3pausemenuTilemap.bin
+;Clear Screen Graphics
+.align 4
+ClearScreenOBJ:
+	.incbin asm/bin/graphics/clearscreen/1clearscreenobj.bin
+.align 4
+;Level select assests (When you select a stage within a world)
+Level1SelectAssetsOBJ:
+	.incbin asm/bin/graphics/levelselectobj/1levelselectobj.bin
+.align 4
+Level2SelectAssetsOBJ:
+	.incbin asm/bin/graphics/levelselectobj/2levelselectobj.bin
+.align 4
+Level3SelectAssetsOBJ:
+	.incbin asm/bin/graphics/levelselectobj/3levelselectobj.bin
+.align 4
+Level4SelectAssetsOBJ:
+	.incbin asm/bin/graphics/levelselectobj/4levelselectobj.bin
+.align 4
+Level5SelectAssetsOBJ:
+	.incbin asm/bin/graphics/levelselectobj/5levelselectobj.bin
+.align 4
+Level6SelectAssetsOBJ:
+	.incbin asm/bin/graphics/levelselectobj/6levelselectobj.bin
+.align 4
+Level7SelectAssetsOBJ:
+	.incbin asm/bin/graphics/levelselectobj/7levelselectobj.bin
+.align 4
+Level8SelectAssetsOBJ:
+	.incbin asm/bin/graphics/levelselectobj/8levelselectobj.bin
+.align 4
+Level9SelectAssetsOBJ:
+	.incbin asm/bin/graphics/levelselectobj/9levelselectobj.bin
+.align 4
+Level10SelectAssetsOBJ:
+	.incbin asm/bin/graphics/levelselectobj/10levelselectobj.bin
+.align 4
+Level11SelectAssetsOBJ:
+	.incbin asm/bin/graphics/levelselectobj/11levelselectobj.bin
+.align 4
+;Staff Roll Screen Objects
+GameLogoOBJ:
+	.incbin asm/bin/graphics/staffroll/1gamelogoobj.bin
+.align 4
+MoeChildhoodLogoOBJ:
+	.incbin asm/bin/graphics/staffroll/2moechildhoodlogoobj.bin
+;Post Credits Screen
+.align 4
+PostCredScreenOBJ:
+	.incbin asm/bin/graphics/postcreditscreen/1congratsobj.bin
+.align 4
+ExitChest:
+	.incbin asm/bin/graphics/exitchest/1exitchest.bin
 
 .endarea
 
-.org 0x08963B48
-LevelSelectAssetsOBJ:
-	.incbin asm/bin/graphics/levelselectobj/levelselectobj.bin
+;----------------------------------------------------------
+;TitleScreen Graphics
+;(Important must leave them in the order shown!)
+;Only Titlecreen has changeable pointers!
+;Other files in this particular section don't!
 
+
+Titlescreen:
+.org 0x088F6B3C
+	.incbin asm/bin/graphics/titlescreen/1titlescreenbg.bin
+	
+SuspendsaveMesg:
+.org 0x088FA308
+	.incbin asm/bin/graphics/titlescreen/2filemessagebg.bin
+
+TitlescreenOBJ:
+.org 0x0890294C
+	.incbin asm/bin/graphics/titlescreen/3titlescreenobj.bin
+
+TitlescreenBGPal:
+.org 0x08956518
+	.incbin asm/bin/graphics/titlescreen/4titlescreenpalbg.bin
+
+
+TitlescreenLogoTilemap: ;162 tiles for the title logo itself
+.org 0x089568E0
+	.incbin asm/bin/graphics/titlescreen/6titlescreenlogotilemap.bin
+
+TitlescreenLetterForegroundOAM:
+.org 0x08957194
+	.incbin asm/bin/graphics/titlescreen/OAM/1letterforegroundOAM.bin
+
+TitlescreenLetterBackgroundOAM:
+.org 0x089574C8
+	.incbin asm/bin/graphics/titlescreen/OAM/2backgroundOAM.bin
+
+SuspendSaveMesgTilemap:	;This is uncompressed normally!!!!
+.org 0x08956F00
+	.incbin asm/bin/graphics/titlescreen/2filemessagetilemap.bin
+;----------------------------------------------------------	
+	
+	
+	
+	
+	
 ;-------------------------------Palettes(Uncompressed)
 ;World 5-3 Fruits
 
 ;Served only for other translations if needed
 ;Banana_Pal:
-;087EDFF8
+;.org 0x087EDFF8
 
 Eggplant_Pal:
 .org 0x087EE0C4
@@ -329,7 +457,7 @@ Pumpkin_Pal:
 
 Cucumber_Pal:
 .org 0x087EE31C
-	.incbin asm/bin/graphics/Food_Puzzle/Replacements/Cucumber_Replacement/1CucumberToOnionPal.bin
+	.incbin asm/bin/graphics/Food_Puzzle/Replacements/Cucumber_Replacement/1CucumberToPumpkinPal.bin
 	
 Apple_Pal:
 .org 0x0883098C
@@ -337,7 +465,7 @@ Apple_Pal:
 	
 Persimmon_Pal:
 .org 0x087EE264
-	.incbin asm/bin/graphics/Food_Puzzle/Replacements/Persimmon_Replacement/1PersimmonToTofuPal.bin
+	.incbin asm/bin/graphics/Food_Puzzle/Replacements/Persimmon_Replacement/1PersimmonToTurnipPal.bin
 	
 Shell_Pal:
 .org 0x087EE400
@@ -351,9 +479,15 @@ Food_Sign_Pal:
 .org 0x0881E1A8
 	.incbin asm/bin/graphics/Food_Puzzle/Replacements/Food_Sign_Replacement/1Food_SignsPal.bin
 	
-;Title Screen Palettes
+;Staff Roll Game Logo
+GamelogoPal1:
+.org 0x086A2288
+	.incbin asm/bin/graphics/staffroll/1gamelogopal.bin
+GamelogoPal2:
+.org 0x086A22A8
+	.incbin asm/bin/graphics/staffroll/2gamelogopal.bin
+
 ;-------------------------------OAM
-;--Title Screen
 
 ;--Game Over Screen
 ;Currently unused for ENG Fan Translation but can be used
@@ -558,13 +692,28 @@ Food_Sign_Pal:
 	.incbin asm/bin/graphics/pausemenu/OAM/4vehiclesignoam.bin
 
 ;Action pop in animation (Uses 5 OAM sprite data blocks)
-;.org 0x0863DE94
-;	.incbin asm/bin/graphics/pausemenu/OAM/5actionsignoam.bin
+.org 0x0863DE94
+	.incbin asm/bin/graphics/pausemenu/OAM/5actionsignoam.bin
 
 ;Action Signs graphic (Uses 5 OAM sprite data blocks)
-;.org 0x0863DF46
-;	.incbin asm/bin/graphics/pausemenu/OAM/5actionsignoam.bin
+.org 0x0863DF46
+	.incbin asm/bin/graphics/pausemenu/OAM/5actionsignoam.bin
+	
+;"LEFT:" graphic (Left of the numbers) in World 1-2 and 5-4 (Here if you need it)
+.org 0x087D3AA6
+	.incbin asm/bin/graphics/orbsleftgfx/OAM/1StuffLeftSignOAM.bin
 
+;The Numbers for the "LEFT:" graphic (This also effects the Countdown timer
+;such as the Blimp race in world 4-3)
+.org 0x087D3AB6
+	.incbin asm/bin/graphics/orbsleftgfx/OAM/2NumbersOAM.bin
+
+;StaffRoll GameLogo
+.org 0x086A2722
+	.incbin asm/bin/graphics/staffroll/OAM/1gamelogooam.bin
+;StaffRoll 2 Moe's Childhood
+.org 0x086A2776
+	.incbin asm/bin/graphics/staffroll/OAM/2moechildhoodoam.bin
 
 
 ;-------------------------------------------------------------------Pointers
@@ -579,7 +728,9 @@ Food_Sign_Pal:
 ;	.word HUDLZSS2
 ;-------------------------------
 
-;Title Screen Graphics
+;Title Screen Graphics (It works but the tilemaps and palettes don't load!)
+;.org 0x080DC910
+;	.word Titlescreen
 
 ;Game Over
 .org 0x0812C530
@@ -692,6 +843,14 @@ Food_Sign_Pal:
 
 .org 0x0814ED98
 	.word TutorialSignHooligatorCostume
+	
+;World 1-3 Lovelyshop
+.org 0x082A7DE4
+	.word LovelyShop1_3
+	
+;World 1-3 Lovely's Pamphlet
+.org 0x082A7DB4
+	.word LovelyPamphlet
 
 ;World 5-3 Fruits
 ;---------------------------------------------
@@ -725,6 +884,10 @@ Food_Sign_Pal:
 	
 .org 0x082AAB74
 	.word Food_Sign_Replacement
+	
+;World 5-4 Mole Poster
+.org 0x082A88AC
+	.word Mole_Message
 
 ;World Selection Screen Assets
 .org 0x0810FAD4
@@ -742,7 +905,31 @@ Food_Sign_Pal:
 	.word BookScreenBG
 .org 0x08130B78
 	.word BookScreenBGTilemap
-
+;Stuff Screen Outfit and Accessory updates
+.org 0x082C5558
+	.word BoxOutfit
+.org 0x082C718C
+	.word BoxOutfit
+.org 0x082C55E8
+	.word BaseballcapAcessory
+.org 0x082C721C
+	.word BaseballcapAcessory
+.org 0x082C539C
+	.word BaseballUniformOutfit
+.org 0x082C6FD0
+	.word BaseballUniformOutfit
+.org 0x082C54A4
+	.word WrestlingLeotardOutfit
+.org 0x082C70D8
+	.word WrestlingLeotardOutfit
+.org 0x082C5528
+	.word SwimsuitOutfit
+.org 0x082C715C
+	.word SwimsuitOutfit
+.org 0x082C5564
+	.word MotorJacketOutfit
+.org 0x082C7198
+	.word MotorJacketOutfit
 ;LovelyShop Graphics
 .org 0x0813854C
 	.word LovelyShopBG
@@ -829,9 +1016,151 @@ Food_Sign_Pal:
 ;PauseMenuTilemap
 .org 0x08104A08
 	.word PausemenuTilemap
-
-
 	
+;ClearScreenOBJ
+.org 0x08121EB8
+	.word ClearScreenOBJ
+	
+;------------------------------------------------------------------------
+;Level Select pointers for the "Select" button prompt on stage selection 1-11 screen for each world
+;------------------------------------------------------------------------
+.org 0x080E11BC
+	.word Level1SelectAssetsOBJ
+.org 0x080E12E4
+	.word Level1SelectAssetsOBJ
+.org 0x080E14F4
+	.word Level1SelectAssetsOBJ
+.org 0x080E1668
+	.word Level1SelectAssetsOBJ
+.org 0x080E1814
+	.word Level1SelectAssetsOBJ
+.org 0x080E1AF8
+	.word Level1SelectAssetsOBJ
+.org 0x080E1D40
+	.word Level1SelectAssetsOBJ
+.org 0x080E1EE8
+	.word Level1SelectAssetsOBJ
+.org 0x080E212C
+	.word Level1SelectAssetsOBJ
+.org 0x080E24A0
+	.word Level1SelectAssetsOBJ
+.org 0x080E26FC
+	.word Level1SelectAssetsOBJ
+.org 0x080E2898
+	.word Level1SelectAssetsOBJ
+.org 0x080E29D8
+	.word Level1SelectAssetsOBJ
+.org 0x080E2BE8
+	.word Level1SelectAssetsOBJ
+.org 0x080E2D98
+	.word Level1SelectAssetsOBJ
+.org 0x080E2F58
+	.word Level1SelectAssetsOBJ
+.org 0x080E323C
+	.word Level1SelectAssetsOBJ
+.org 0x080E3484
+	.word Level1SelectAssetsOBJ
+.org 0x080E362C
+	.word Level1SelectAssetsOBJ
+.org 0x080E3870
+	.word Level1SelectAssetsOBJ
+.org 0x080E3BE4
+	.word Level1SelectAssetsOBJ
+.org 0x080E3E40
+	.word Level1SelectAssetsOBJ
+;---------------------------------------------------------------
+
+;World 2 Level Select OBJ Assets
+.org 0x080E12D4
+	.word Level2SelectAssetsOBJ
+.org 0x080E29C8
+	.word Level2SelectAssetsOBJ
+
+;World 3 Level Select OBJ Assets
+.org 0x080E14E4
+	.word Level3SelectAssetsOBJ
+.org 0x080E2BD8
+	.word Level3SelectAssetsOBJ
+	
+;World 4 Level Select OBJ Assets
+.org 0x080E1658
+	.word Level4SelectAssetsOBJ
+.org 0x080E2D88
+	.word Level4SelectAssetsOBJ
+
+;World 5 Level Select OBJ Assets
+.org 0x080E1804
+	.word Level5SelectAssetsOBJ
+.org 0x080E2F48
+	.word Level5SelectAssetsOBJ
+
+;World 6 Level Select OBJ Assets
+.org 0x080E1AE8
+	.word Level6SelectAssetsOBJ
+.org 0x080E322C
+	.word Level6SelectAssetsOBJ
+
+;World 7 Level Select OBJ Assets
+.org 0x080E1D30
+	.word Level7SelectAssetsOBJ
+.org 0x080E3474
+	.word Level7SelectAssetsOBJ
+	
+;World 8 Level Select OBJ Assets
+.org 0x080E1ED8
+	.word Level8SelectAssetsOBJ
+.org 0x080E361C
+	.word Level8SelectAssetsOBJ
+	
+;World 9 Level Select OBJ Assets
+.org 0x080E211C
+	.word Level9SelectAssetsOBJ
+.org 0x080E3860
+	.word Level9SelectAssetsOBJ
+
+;World 10 Level Select OBJ Assets
+.org 0x080E2490
+	.word Level10SelectAssetsOBJ
+.org 0x080E3BD4
+	.word Level10SelectAssetsOBJ
+	
+;World 11 Level Select OBJ Assets
+
+.org 0x080E26EC
+	.word Level11SelectAssetsOBJ
+.org 0x080E3E30
+	.word Level11SelectAssetsOBJ
+	
+;Exit Chest for post game levels
+.org 0x082A7CF4
+	.word ExitChest
+
+;StaffRoll Screen
+;Game Logo
+.org 0x08114838
+	.word GameLogoOBJ
+.org 0x082C7EB4
+	.word GameLogoOBJ
+.org 0x082C7F44
+	.word GameLogoOBJ
+;Moe's Childhood Logo
+.org 0x08114978
+	.word MoeChildhoodLogoOBJ
+
+
+;PostCreditScreen
+.org 0x082C7F38
+	.word PostCredScreenOBJ
+
+;World 4-3 Goal Flag
+.org 0x082A94C4
+	.word Goalflag4_3
+
+;World 1-2 Orb Countdown OBJ Assets (POINTER DOES NOT WORK DO NOT CHANGE)
+;.org 0x0803BB80
+;	.word OrbsleftOBJ
+
+
 ;--------------------Misc. Stuff that was uncompressed
 ;This total sign was uncompressed!
 .org 0x082EED00
@@ -848,6 +1177,10 @@ MinigameHUDTilemap:
 .org 0x08604812
 	.incbin asm/bin/graphics/minigamehud/1minigamehudtilemap.bin
 
+;World 1-2 and World 5-4 Orb Countown
+OrbsleftOBJ:
+.org 0x087D3E58
+	.incbin asm/bin/graphics/orbsleftgfx/1orbsleftgfx.bin
 	
 ;----FileSelect Stage Nametag Tile ID's and size
 ;First value is the length of the tag. Change it to increase or decrease the size of the tag.
