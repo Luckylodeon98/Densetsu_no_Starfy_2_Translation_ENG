@@ -1,0 +1,23 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 3-5-3
+//Block Range: $0 - $10E
+
+//<:sd><line>
+<:func> <3> <2> <2><line>
+<:func> <0> <0><line>
+<:se><line>
+たからばこの中には<line>
+グッズ<textcolor_d>『ぼうさいずきん』<textcolor_1>が<line>
+入っていたよ!<line>
+<:c><line>
+<wait>マップがめんから『キョロスケさまの<line>
+いえ』へ行けるようになったよ!<line>
+ちょっと　のぞいてみよう!<line>
+<:c><line>
+<wait><:sd><line>
+<:flagon> <1><5><0><6><0><line>
+<:func> <1> <0><line>
+<:func> <2> <2> <2><line>
+<:exit><line>
+<end>

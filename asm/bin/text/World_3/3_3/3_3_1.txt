@@ -1,0 +1,160 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $B34
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <3><3><0><3> <go> <2><line>
+<:if> <3><3><0><0> <go> <1><line>
+<:flagon> <3><3><0><0><line>
+<:func> <2><2> <-><1><line>
+[<wait_time> <6><0>]<line>
+<rname><diamond>Moe<line>
+Hey Starf'!<line>
+Feast your eyes on this!<line>
+<wait><:obj> <2> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+<rname><diamond>Moe<line>
+By usin' this thing,<line>
+you can track down those little brats!<line>
+<wait><:obj> <2> <2><line>
+<:func> <1><8> <1> <7><2><line>
+<rname><diamond>Moe<line>
+Here take it!<line>
+<textcolor_d>Use the arrows to track down<textcolor_0><line>
+<textcolor_d>and catch the Turtle Kids<textcolor_0>!<line>
+<redname><diamond>Moe<line>
+When ya <textcolor_d>catch those two<textcolor_0>,<line>
+bring'em back here so I can lecture them!<line>
+<redname><diamond>Moe<line>
+Oh right, but those brats probably won't<line>
+make it easy on ya.<line>
+<redname><diamond>Moe<line>
+So you'll have to <textcolor_d>spin into'em a buch<textcolor_0><line>
+<textcolor_d>to make them give up!<textcolor_0><line>
+<textcolor_d>Then you can catch'em!<textcolor_0><line>
+<redname><diamond>Moe<line>
+Alrighty!<line>
+Now catch those punks<line>
+and bring'em back here!<line>
+<wait><:sd><line>
+<:obj> <2> <2><line>
+<:flagon> <1><5><5><1><2><line>
+<:exit><line>
+<wait>:<1><line>
+<:flagon> <3><3><0><6><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+<textcolor_d>Use the arrows to track down<textcolor_0><line>
+<textcolor_d>and catch the Turtle Kids<textcolor_0>!<line>
+<redname><diamond>Moe<line>
+Hit'em with your <textcolor_d>Star Spin<textcolor_0><line>
+<textcolor_d>a few times to stun'em!<textcolor_0><line>
+<textcolor_d>Then ya catch'em!<textcolor_0> Got it?<line>
+:<$66><$6C><$61><go><$66><$66> <3><3><0><6><line>
+<:end><line>
+<wait>:<2><line>
+<:sd><line>
+<:func> <1><1> <3><line>
+:<$66><$6C><$61><go><$66><$66> <1><5><5><1><3><line>
+:<$66><$6C><$61><go><$66><$66> <1><5><5><1><4><line>
+<:obj> <5> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <2><0>]<line>
+<:obj> <6> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <2><0>]<line>
+<:se><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Moe<line>
+Finally got caught again, eh?<line>
+Little punks!<line>
+<wait><:obj> <1> <9> <2> <1><line>
+<rname><diamond>Moe<line>
+Listen up, you two!<line>
+I get where ya comin' from<line>
+with the whole rebellion thing...<line>
+<redname><diamond>Moe<line>
+I used to be a real<line>
+problem child too...<line>
+*mumble mumble*<line>
+<:c><line>
+<wait><:func> <4><line>
+<:flagon> <3><3><0><5><line>
+<:func> <1><8> <1> <7><4><line>
+<:obj> <4> <6><line>
+<:obj> <4> <1><0> <0> <1><line>
+[<wait_time> <8><0>]<line>
+<:obj> <5> <0> <0><line>
+<:obj> <6> <0> <2><line>
+[<wait_time> <3><0>]<line>
+<:obj> <5> <7> <6><0> <1><9><2> <2><0><line>
+[<wait_time> <5>]<line>
+<:obj> <6> <7> <6><4> <2><1><0> <2><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <5> <2><line>
+<:obj> <6> <2><line>
+[<wait_time> <6><0>]<line>
+<rname><diamond>Moe<line>
+But y'know...<line>
+I eventually realized<line>
+how wrong I was about parents...<line>
+<redname><diamond>Moe<line>
+*mumble mumble*<line>
+You guys are bein' real quiet...<line>
+<wait><:obj> <1> <9> <2><line>
+<:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+Wha- They ain't here!!!<line>
+Hey, Starf'!<line>
+where'd they go!?<line>
+<wait><:obj> <1> <5><line>
+<rname><diamond>Moe<line>
+Those punk's bro came,<line>
+and they all escaped<line>
+through the door?<line>
+<wait><:obj> <1> <5> <2><line>
+<:func> <8> <0> <1><9><line>
+<rname><diamond>Moe<line>
+So instead of stoppin' em,<line>
+you just stood there!?<line>
+You blockhead!!!<line>
+<wait><:func> <8> <0> <9><9><line>
+<rname><diamond>Moe<line>
+C'mon, after'em!<line>
+I wasn't anywhere near<line>
+done with my lecture!!!<line>
+<:c><line>
+<wait><:obj> <1> <7> <9><4> <1><8><1> <2><0><line>
+<:sd><line>
+<:func> <4><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <2><line>
+<:flagon> <3><3><0><4><line>
+<:func> <2> <2><line>
+<:func> <1><1> <0><line>
+<:obj> <5> <2><line>
+<:obj> <6> <2><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+//I think this is unused dialogue...
+//I'm gonna comment this out just incase...
+//<wait><:func> <2><2> <-><1><line>
+//<rname><diamond>Moe<line>
+//Hey!<line>
+//Let's get outta here
+//and head to the next<textcolor_d>island<textcolor_0>!<line>
+//<redname><diamond>Moe<line>
+//These brats are seriously<line>
+//gettin' on my nerves...<line>
+<:end><line>
+<end>

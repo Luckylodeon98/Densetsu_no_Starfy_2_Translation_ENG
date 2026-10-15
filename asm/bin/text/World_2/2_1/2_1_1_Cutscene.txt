@@ -19,7 +19,7 @@
 <:func> <0> <0><line>
 <rname><diamond>Ruby<line>
 Kyah!!!<line>
-Kyaaaaaaaah!!!Åv<line>
+Kyaaaaaaaah!!!!<line>
 [<wait_time> <1><8><0>]<line>
 <:func> <4><line>
 <:c><line>

@@ -1,0 +1,34 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 3-5-2
+//Block Range: $0 - $196
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+We got those lowlives!<line>
+right where we want 'em!<line>
+They're right past this door!<line>
+<redname><diamond>Moe<line>
+But it seems like they have<line>
+some sor'ta magic barrier protectin'em...<line>
+<redname><diamond>Moe<line>
+So regular attacks won't<line>
+even leave a scratch...<line>
+So whadda we do then?...<line>
+<redname><diamond>Moe<line>
+Try to avoid thier attacks for a while.<line>
+Then hit 'em when they get tired!<line>
+<:end><line>
+<end>

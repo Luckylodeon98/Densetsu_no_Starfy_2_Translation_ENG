@@ -1,0 +1,30 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $10E
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+C'mon, pick up the pace!<line>
+We gotta catch that punk!<line>
+<redname><diamond>Moe<line>
+But be careful.<line>
+The platforms here<line>
+don't hold up to well...<line>
+<redname><diamond>Moe<line>
+If you fall in that hole,<line>
+It's the end of the line!<line>
+<:end><line>
+<end>

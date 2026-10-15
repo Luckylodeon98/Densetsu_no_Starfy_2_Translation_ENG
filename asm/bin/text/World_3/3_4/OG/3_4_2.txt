@@ -1,0 +1,25 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 3-4-2
+//Block Range: $0 - $16F
+
+//<:func> <6> <1> <1><line>
+<rname><diamond>キョロスケ<line>
+「そういや　オメェ　知ってっか?」<line>
+<:c><line>
+<redname><diamond>キョロスケ<line>
+「このあたりに　そらを<line>
+　フワフワとべる　ヘンな<line>
+　ヤツがいるらしいぞ」<line>
+<:c><line>
+<redname><diamond>キョロスケ<line>
+「ソイツにあえば　なにか<line>
+　ワザ　おしえてもらえるんじゃ<line>
+　ねえか?」<line>
+<:c><line>
+<redname><diamond>キョロスケ<line>
+「そういうヤツは　だいたい<line>
+　たかいところに　いるんだがな・・<line>
+　まあ　さがしてみろよ」<line>
+<:end><line>
+<end>

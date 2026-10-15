@@ -1,0 +1,18 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $E2
+
+//<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>キョロスケ<line>
+「そういや　この近くに<line>
+　<textcolor_d>『ききゅう』<textcolor_0>を　けんきゅうしてる<line>
+　メカニじいさんが　すんでたな」<line>
+<redname><diamond>キョロスケ<line>
+「オメェ　行って<line>
+　あいさつでも　してこいよ」<line>
+<:c><line>
+<end>

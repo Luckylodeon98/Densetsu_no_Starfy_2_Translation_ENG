@@ -1,0 +1,117 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $84F
+
+<:if> <2><2><0><3> <go> <5><line>
+<:if> <2><2><0><2> <go> <4><line>
+<:if> <2><2><0><1> <go> <2><line>
+<:if> <2><2><0><0> <go> <1><line>
+<:sd><line>
+<:flagon> <2><2><0><0><line>
+<:func> <6> <1> <1><line>
+<:func> <2><2> <-><1><line>
+<:se><line>
+<rname><diamond>キョロスケ<line>
+「右上に　トビラが　みえてるのに<line>
+　ヘイが　たかすぎて　行けねえ・・<line>
+　どうすりゃ　いいのかな」<line>
+<redname><diamond>キョロスケ<line>
+「しゃーねえ　今はヘ　とりあえず<line>
+　<textcolor_d>『左のトビラ』<textcolor_0>にでも<line>
+　入ってみろ!」<line>
+<:end><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:func> <2><2> <-><1><line>
+<:se><line>
+<rname><diamond>キョロスケ<line>
+「わかんねえ　ヤツだな!オメェも!<line>
+　とっとと　<textcolor_d>『左のトビラ』<textcolor_0>に<line>
+　行けっつってんだろ?」<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<:if><$69><$66> <2><2><0><7> <go> <3><line>
+<:flagon> <2><2><0><7><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>キョロスケ<line>
+「わわわわ!な　なんなんだ?<line>
+　きゅうに　水かさが　ふえやがった<line>
+　いったい　どうなってるんだ?」<line>
+<redname><diamond>キョロスケ<line>
+「スタフィー・・　オメェが<line>
+　なんか　したのか?」<line>
+<redname><diamond>キョロスケ<line>
+「・・まあ　いいか・・<line>
+　よし　オレさまは　ここで<line>
+　まっててやるから」<line>
+<redname><diamond>キョロスケ<line>
+「オメェ　あちこち<line>
+　たんけんしてこいよ」<line>
+<redname><diamond>キョロスケ<line>
+「どうしても　わからねえ<line>
+　ことがあったら　この・・・」<line>
+<redname><diamond>キョロスケ<line>
+「かっこよくてかしこい　オレさまに<line>
+　ききに　きてもいいぞ」<line>
+<:end><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>キョロスケ<line>
+「なんだ　なんだ!<line>
+　さっそく　かっこよくておりこうな<line>
+　オレさまを　たよるのか?」<line>
+<redname><diamond>キョロスケ<line>
+「そうだなぁ・・<line>
+　ここの　すぐ下の　おくに<line>
+　トビラが　あったな・・」<line>
+<redname><diamond>キョロスケ<line>
+「トビラの中が　どうなってるかって?<line>
+　知らねえよ!　オメェが<line>
+　たしかめろよ!」<line>
+<:end><line>
+<wait>:<4><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>キョロスケ<line>
+「かっこよくて　テンサイな<line>
+　オレさまに　なにかようか?」<line>
+<redname><diamond>キョロスケ<line>
+「・・行けない　トビラがある?<line>
+　そういうときは　あしばを<line>
+　みつけるんだ」<line>
+<redname><diamond>キョロスケ<line>
+「なんだって　いいんだよ!<line>
+　たとえば　ブロックとか<line>
+　<textcolor_d>『タル』<textcolor_0>とか　あとは・・」<line>
+<redname><diamond>キョロスケ<line>
+「オメェの　とくいな<line>
+　<textcolor_d>『なみまじゃんぷ』<textcolor_0>でも<line>
+　いいんじゃねぇか?」<line>
+<redname><diamond>キョロスケ<line>
+「・・なみまじゃんぷは<line>
+　水がねえと　できねえけどな」<line>
+<:end><line>
+<wait>:<5><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>キョロスケ<line>
+「オメェは　まだ　こんなとこ<line>
+　ウロウロ　してんのか!」<line>
+<redname><diamond>キョロスケ<line>
+「まあ　かっこよくて　クールで<line>
+　ステキで　やさしい　オレさまと<line>
+　あいたいきもちは　わかるがな」<line>
+<:end><line>
+<end>

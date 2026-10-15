@@ -1,0 +1,120 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $74C
+
+//<:if> <3><2><0><9> <go> <1><line>
+<:flagon> <3><2><0><9><line>
+<:sd><line>
+<:func> <1> <2><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:obj> <2> <0> <3><line>
+<:obj> <1> <4><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>キョロスケ<line>
+「やっと　おいついたぞ!<line>
+　ワルガキめ!」<line>
+<redname><diamond>キョロスケ<line>
+「さあ　かあちゃんのとこに　カエレ!<line>
+　あんま　しんぱい　かけさせんなよ<line>
+　オメェ」<$76><line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>カメッコいもうと<line>
+「あんたたち　ダレよ?<line>
+　あたいに　なんか<line>
+　モンクあんのかい!」<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「大アリだ!　オメェ!<line>
+　かあちゃんが　どれだけ　しんぱい<line>
+　してっと　思ってんだ!」<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>カメッコいもう、と<line>
+「やだね!　あんな　クチうるさい<line>
+　かあちゃんの　いるとこなんか<line>
+　かえらないもん!」<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「コトバじゃ　わかんねーみてーだな<line>
+　んじゃ　しゃあねえ・・<line>
+　チカラずくでも　つれてかえるぞ!」<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>カメッコいもうとニ<line>
+「うっ・・よ・・よーし!<line>
+　やってやるー!」<line>
+<:c><line>
+<wait><:func> <1><8> <1> <7><4><line>
+<:obj> <3> <6><line>
+<:obj> <3> <1><0> <0> <1><line>
+<rname><diamond>カメッコじなん<line>
+「おい!　いもうとよ!<line>
+　こっちだ!」<line>
+<:obj> <2> <9> <2> <1><line>
+<redname><diamond>カメッコじなん<line>
+「この先に　にいちゃんの<line>
+　かくれがの<textcolor_d>『しま』<textcolor_0>が<line>
+　あるんだセ!」<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>カメッコいもうと<line>
+「にいちゃん!<line>
+　たすかったー!」<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <3> <1><0> <0> <2><line>
+[<wait_time> <1><0>]<line>
+<:obj> <3> <2><line>
+<:flagon> <3><2><0><8><line>
+<:obj> <2> <0><line>
+<:obj> <2> <7> <3><2> <0> <2><0><line>
+[<wait_time> <5><0>]<line>
+<:obj> <2> <0> <3><line>
+<:obj> <2> <9> <2><line>
+<:obj> <2> <4><line>
+<rname><diamond>カメッコいもうと<line>
+「バーカ!バーカ!<line>
+　あん<$F1>たらなんかにゃ<line>
+　つかまらないよーだ!アハハハ・・」<line>
+<:c><line>
+<wait><:obj> <2> <9> <2> <1><line>
+[<wait_time> <1><0>]<line>
+<:obj> <2> <2><line>
+[<wait_time> <1><0>]<line>
+<:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「ま・・まちゃーがれ!<line>
+　コラァ!」<line>
+<redname><diamond>キョロスケ<line>
+「まだ　『せっきょう』は<line>
+　おわってねえぞ!」<line>
+<redname><diamond>キョロスケ<line>
+「チクショー　@なんて　やんちゃな<line>
+　ガキどもだ!<line>
+<:obj> <1> <9> <2><line>
+　おい　スタフィー!　おいかけろ!」<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <3> <2><line>
+<:obj> <2> <2><line>
+<:func> <3> <2><line>
+<:se><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>キョロスケ<line>
+「なに　グズグズしてんだ!<line>
+　さっさと　こことは　オサラバして<line>
+　つぎの<textcolor_d>『しま』<textcolor_0>を　めざせ!」<line>
+<:end><line>
+<end>

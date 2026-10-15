@@ -17,7 +17,7 @@
 GLUGLUG LAGOON 2-4<line>
 [<x_pos> <3><0>]<line>
 [<y_pos> <2><0>]<line>
-      At Last!<line>
+            At Last!<line>
 The Showdown with Puch Ogura #2!<line>
 <end>
 

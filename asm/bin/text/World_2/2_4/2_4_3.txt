@@ -1,0 +1,29 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $132
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+I just saw that brat riding<line>
+a motorcyle that can spew fire!<line>
+<redname><diamond>Moe<line>
+That thing could burn ya<line>
+if ya act carelessly.<line>
+<redname><diamond>Moe<line>
+But that brat's gotta run<line>
+outta gas a some point!<line>
+When that happens, there's your chance!<line>
+<end>

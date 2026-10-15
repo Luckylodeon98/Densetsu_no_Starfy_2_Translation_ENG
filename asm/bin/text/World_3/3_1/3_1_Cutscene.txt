@@ -1,0 +1,156 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 3-1-Cutscene
+//Block Range: $0 - $97C
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<rname><diamond>Turtle Kids<line>
+"Ahaha, stop it! Hee-hee!<line>
+~Ow! I'll get you for that! Hahaha!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Turtle Kids<line>
+Come on you guys,<line>
+Can't you at least be more quiet?<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Turtle Kids<line>
+Yay! Hahaha! Hee-hee<$43><line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <0><line>
+<rname><diamond>Puchi Ogura #3<line>
+Hrmm.. Hrmmm...<line>
+It's so boooring around here!<line>
+Isn't there anything fun to do?<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <1><line>
+<rname><diamond>Puchi Ogura #3<line>
+Hrm?<line>
+They look like they're having fun...<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Puchi Ogura #3<line>
+I'm kind of annoyed at how much<line>
+free time I have anyways...<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Puchi Ogura #3<line>
+Kiremoth, you're up hrm!<line>
+Use your magic powder to turn<line>
+these kids into real troublemakers!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Kiremoth<line>
+Moth-moth!...<line>
+With my "Vile Powder", these kids'll<line>
+become hooligans in no time flat, moth!<line>
+[<wait_time> <6><0>]<line>
+<:func> <0> <2><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <4><line>
+<rname><diamond>Puchi Ogura #3<line>
+Hrm... Now to get outta here<line>
+before someone notices!<line>
+Can't wait to see the results, hrm!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <5><line>
+<rname><diamond>Turtle Kid Gang<line>
+Ow!<line>
+"What do ya thank you're doin' punk!?"<line>
+"Huh!? Who're you callin' a punk!?"<$49><line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Turtle Kid Gang<line>
+"Shut up you two!<line>
+Or do you want ME<line>
+to put the hurt on you!?"<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>"Pow!" "Smack!" "Smash!" "Bam!"...<line>
+<bigspace>"Bam!" "Smack!" "Smash!" "Pow!"...<line>
+<bigspace><bigspace>"Scratch!" "Biff!" "Kaboom!"...<line>
+<bigspace><bigspace><bigspace>"Pow!" "Smack!" "Smash!" "Bam!"...<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <6><line>
+<rname><diamond>Tortamama<line>
+Now now, children.<line>
+Please don't fight!<line>
+Let's be good boys and girls, okay?<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <7><line>
+<rname><diamond>Turtle Kid Gang<line>
+Huh? Who do ya think ya talkin to ya hag!?<line>
+Can it!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <8><line>
+<rname><diamond>Tortamama<line>
+Wh-what's gotten into you all!?<line>
+I didn't raise such impolite children...<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <1><0><line>
+<rname><diamond>Turtle Kid Gang<line>
+None of your business!<line>
+Tch, this place is borin' me...<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Turtle Kids Gang<line>
+"C'mon, you two! Let's Bounce!"<line>
+"Yeah, let's get outta here!"<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <9><line>
+<rname><diamond>Tortamama<line>
+What-!?<line>
+Wait a minute!<line>
+Kids!!!!!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Tortamama<line>
+Boohoohooo...<line>
+What happened to my little angels?<line>
+What made them become so unruly?<line>
+[<wait_time> <1><8><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:exit><line>
+<end>

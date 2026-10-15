@@ -1,0 +1,91 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $5E8
+
+//<:sd><line>
+<:func> <1> <1><line>
+<:se><line>
+<:if> <2><3><0><2> <go> <5><0><line>
+<:if> <2><3><0><0> <go> <5><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <2><3><0><0><line>
+<rname><diamond>メカニじいさん<line>
+「おお　スタフィー<line>
+　ひさしぶりじゃのう」<line>
+<redname><diamond>メカニじいさん<line>
+「また　わしの<line>
+　すばらしい　けんきゅうを<line>
+　てつだってみる気は　ないか?」<line>
+<wait><:sd><line>
+<rname><diamond>メカニじカいさん<line>
+「どうじゃな?　ん?」<line>
+<rname>　　てつだう<line>
+<rname>　　てつだわない<line>
+:<$64><$65><$63><$69><$64><$65> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait><:se><$6C> <0> <go> <2><0><line>
+<:se><$6C> <1> <go> <3><0><line>
+<wait>:<3><0><line>
+<rname><diamond>メカニじいさん<line>
+「なんじゃ　なんじゃ!<line>
+　さいきんの　わかいモンは!!<line>
+　まったくもって　なさけない!」<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:exit><x_pos><$69><$74><line>
+<wait>:<5><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<rname><diamond>メカニじいさん<line>
+「<textcolor_d>『ききゅう』<textcolor_0>に　のりたいのか」<line>
+　　はい<line>
+　　いいえ<line>
+:<$64><$65><$63><$69><$64><$65> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait><:se><$6C> <1> <go> <4><0><line>
+:<2><0><line>
+<rname><diamond>メカニじいさん<line>
+「ふぉっふぉっふぉ<line>
+　ききゅうのすばらしさを<line>
+　りかい　しておるようじゃな」<line>
+<redname><diamond>メカニじいさん<line>
+「ききゅうのそうさは<line>
+　おぼえておるか?<line>
+　・・・なに?わすれた?」<line>
+<redname><diamond>メカニじいさん<line>
+「しかたないのう・・<line>
+　とちゅうの<textcolor_d>『カンバン』<textcolor_0>をみて<line>
+　思い出すのじゃ!」<line>
+<wait><:flagon> <2><3><0><1><line>
+<:func> <1><8> <1> <7><4><line>
+<rname><diamond>メカニじいさん<line>
+「わしは　先にノ<line>
+　行っておる　からの」<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:exit><line>
+<wait>:<4><0><line>
+<rname><diamond>メカニじいさん<line>
+「なんじゃ　おまえは!<line>
+　としよりを　からかうでない!」<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:exit><line>
+<wait>:<5><0><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>メカニじいさん<line>
+「おお　スタフィーではないか<line>
+　あのときは　せわに　なったのう」<line>
+<redname><diamond>メカニじいさん<line>
+「わしも　ますます　<textcolor_d>『ききゅう』<textcolor_0>を<line>
+　けんきゅうする　じょうねつが<line>
+　わいてきたわい!」<line>
+<redname><diamond>メカニじいさん<line>
+「今　あたらしい　きのうを<line>
+　けんきゅう中なんじゃ<line>
+　たのしみに　しておれ!」<line>
+<end>

@@ -1,0 +1,33 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 3-5-3
+//Block Range: $0 - $10E
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <2><line>
+<:func> <0> <0><line>
+<:se><line>
+[<y_pos> <1><8>]<line>
+Inside the chect there was...<line>
+A <textcolor_d>Disaster Hood<textcolor_1>!<line>
+<:c><line>
+[<y_pos> <1><2>]<line>
+<wait>Now you can go to Moe's House<line>
+from the Map Screen!<line>
+Why don't we take a look?<line>
+<:c><line>
+<wait><:sd><line>
+<:flagon> <1><5><0><6><0><line>
+<:func> <1> <0><line>
+<:func> <2> <2> <2><line>
+<:exit><line>
+<end>

@@ -32,7 +32,7 @@
 <:func> <9><line>
 [<wait_time> <3><0>]<line>
 <:obj> <1> <7> <1><7><0> <8> <6><0><line>
-<linealt><:func> <9><line>
+<:func> <9><line>
 <:obj> <1> <7> <1><7><0> <2><4><8> <6><0><line>
 <:func> <9><line>
 <:obj> <1> <7> <9><0> <1><9><2> <1><0><0><line>
@@ -55,8 +55,8 @@
 <:func> <7><line>
 <:func> <1><8> <7><line>
 <rname><diamond>Puchi Ogura #1<line>
-So! That loser clam's<line>
-partner's finally here!<line>
+So!<line>
+That loser clam's partner's finally here!<line>
 <:c><line>
 <redname><diamond>Konk<line>
 I won't lose to you like before, Konk!<line>
@@ -84,7 +84,7 @@ Now come on, let's do this!<line>
 <rname><diamond>Konk<line>
 Konk Konk Konk!<line>
 No matter how many times you come back,<line>
-nothing'll change Kong!<line>
+nothing'll change Konk!<line>
 <:c><line>
 <redname><diamond>Puchi Ogura #1<line>
 Ahahaha! Yeah,<line>

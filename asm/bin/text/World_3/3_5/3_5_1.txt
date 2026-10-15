@@ -1,0 +1,145 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 3-5-1
+//Block Range: $0 - $A6E
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <3><5><0><0> <go> <1><line>
+<:sd><line>
+[<wait_time> <6><0>]<line>
+<:flagon> <3><5><0><0><line>
+<:func> <6> <1><line>
+<:se><line>
+<:obj> <2> <1><0> <0> <1><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Tortamama<line>
+Oh, Moe!<line>
+Moe!<line>
+<redname><diamond>Tortamama<line>
+Look!<line>
+My little ones are back,<line>
+safe and sound!!!<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <0><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Ah, that's a relief...<line>
+Sounds like my lecture worked, huh?<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <0> <1><line>
+<rname><diamond>Tortamama<line>
+Thanks to you,<line>
+the curse that was controlling<line>
+my little ones was broken!<line>
+<redname><diamond>Tortamama<line>
+But I'm still a little scared...<line>
+To think that someone so evil<line>
+was so close by...<linealt>
+<:c><line>
+<wait><:obj> <2> <1><0> <0><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Don't worry about it!<line>
+I'll take care of those pests<line>
+no problem!<line>
+<redname><diamond>Moe<line>
+I'm pretty sure I know<line>
+where they are too...<line>
+<redname><diamond>Moe<line>
+They're probably just up ahead.<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <0> <1><line>
+<rname><diamond>Tortamama<line>
+Thank you, truly!<line>
+I wish I could reward<line>
+you in some way, but...<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <0><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Hey, don't worry about it!<line>
+It's on the house.<line>
+<redname><diamond>Moe<line>
+But more importantly,<line>
+you three better take good<line>
+care of your mom!<line>
+<:c><line>
+<wait><:obj> <4> <4><line>
+<:obj> <3> <4><line>
+<:obj> <5> <4><line>
+<rname><diamond>Turtle Kids<line>
+We will!<line>
+Thanks, Moe!!!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Good to hear!<line>
+Now, c'mon Starf'!<line>
+Let's go thrash some bad guys!<line>
+<wait><:obj> <1> <9> <2> <1><line>
+<rname><diamond>Moe<line>
+Hm? What's up, Starf'?<line>
+"You're being unusually nice.<line>
+what's with you?"<line>
+<redname><diamond>Moe<line>
+Well... I'm livin' in the same<line>
+circumstances that these guys are.<line>
+<redname><diamond>Moe<line>
+When I see people like that,<line>
+it makes me wanna help any way I can.<line>
+<redname><diamond>Moe<line>
+Not that you'd understand...<line>
+The worst you've had to<line>
+deal with is an alarm clock.<line>
+<redname><diamond>Moe<line>
+*sigh* But y'know,<line>
+it really is a great thing, havin' a family...<line>
+<redname><diamond>Moe<line>
+Heh,<line>
+Those kids remind me of<line>
+my siblings back at home.<line>
+<redname><diamond>Moe<line>
+Oh yeah! Hey Starf'!<line>
+Why don'cha come over<line>
+to my place sometime!<line>
+<redname><diamond>Moe<line>
+It ain't too far from here.<line>
+It's not as nice as Pufftop, but...<line>
+<redname><diamond>Moe<line>
+<:func> <1><8> <1> <5><2><line>
+There we go!<line>
+<textcolor_d>Now you can head to my place<textcolor_0><line>
+<textcolor_d>any time you're on the Map Screen!<textcolor_0><line>
+<redname><diamond>Moe<line>
+Feel free to visit<line>
+anytime you like.<line>
+<redname><diamond>Moe<line>
+Now let's get goin'!<line>
+Let's teach those lowlives a lesson!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:obj> <1> <9> <2> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+<textcolor_d>You can head to my house<textcolor_0><line>
+<textcolor_d>any time you are the Map Screen!<textcolor_0><line>
+<redname><diamond>Moe<line>
+Feel free to visit anytime you like.<line>
+<:end><line>
+<end>

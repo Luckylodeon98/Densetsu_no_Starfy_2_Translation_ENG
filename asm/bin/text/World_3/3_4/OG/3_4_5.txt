@@ -1,0 +1,10 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 3-4-4
+//Block Range: $0 - $58
+
+//<:flagon> <1><5><5><1><4><line>
+<:flagon> <3><4><0><7><line>
+<:func> <2><2> <-><1><line>
+<textcolor_d>ƒJƒƒbƒR‚¶‚È‚ñ<textcolor_0>‚ğ‚Â‚©‚Ü‚¦‚½‚æ<line>
+<end>

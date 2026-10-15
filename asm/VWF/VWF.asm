@@ -19,13 +19,17 @@
 	
 .org 0x0838788C
 	.incbin asm/VWF/2StoryFont.bin
-	
 
-.org 0x09E5D98C
+.org 0x083FF30C
+	.incbin asm/VWF/4AsciiFont.bin
+
+;.org 0x09E5D98C
+.org 0x0868598C
 Minifont:
 	.incbin asm/VWF/3MiniFontNew.bin
+	
 .org 0x09E6418C
-MinifontPhoto:
+MinifontPhoto: ;Newly created font for use in photo screen!
 	.incbin asm/VWF/3MiniFontPhoto.bin
 
 
@@ -82,6 +86,7 @@ MinifontPhoto:
 	.byte 0x80
 	
 ;		WARNING THIS IS INCASE VWF CANNOT BE USED PLEASE ADJUST SCRIPT ACCORDINGLY TO THE FONT CHANGES BELOW!!!!
+;		First byte is width, Second byte is height
 	
 ;.org 0x083DFEE8			; Intro Font Cell size... WARNING! THIS CHANGES THE ENTIRE CELL SIZE FOR THE FONT AND WILL EFFECT ELEMENTS USING THE FONT!
 ;	.byte 0x03,0x0D
@@ -92,7 +97,8 @@ MinifontPhoto:
 ;.org 0x0868598C			; Minifont Cell Size.... WARNING! THIS CHANGES THE ENTIRE CELL SIZE FOR THE FONT AND WILL EFFECT ELEMENTS USING THE FONT!
 ;	.byte 0x08,0x08
 
-
+;.org 0x083FF21C			; Ascii Font Cell Size... WARNING! THIS CHANGES THE ENTIRE CELL SIZE FOR THE FONT AND WILL EFFECT ELEMENTS USING THE FONT!
+;	.byte 0x06,0x0C
 .close
 
 ;Leave an empty line at the end!

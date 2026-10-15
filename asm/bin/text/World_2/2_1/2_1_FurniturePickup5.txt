@@ -17,8 +17,9 @@
 <:func> <2><2> <-><1><line>
 <:sd><line>
 Will you take this <textcolor_d>furniture<textcolor_0> back with you?<line>
-<rname>     Yes<line>
-<rname>     No<line>
+[<x_pos> <2><5>]<line>
+<rname>Yes<line>
+<rname>No<line>
 <:decide> <2> <0> <2> <1> <1><line>
 <:c><line>
 <wait><:sel> <1> <go> <1><line>

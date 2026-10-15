@@ -1,0 +1,69 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $3EC
+
+//<:sd><line>
+<:func> <1> <2><line>
+<:se><line>
+<:if> <2><4><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <2><4><0><1><line>
+<:obj> <2> <4><line>
+<rname><diamond>プチオーグラ2ごう<line>
+「へへーん!<line>
+　ここまで　きてみろっつーの!」<line>
+<:c><line>
+<wait><:obj> <2> <7> <8> <1><2><7> <5><line>
+[<wait_time> <3><0>]<line>
+<:func> <6> <1> <1><line>
+<:obj> <2> <9> <2><line>
+<:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「オラーッ!!」<line>
+<redname><diamond>キョロスケ<$50><line>
+「オメェが　くると思って<line>
+　先まわり　してたんだよ!<line>
+　もう　にげらんねーぞ!」<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>プチオーグラ2ごう<line>
+「それで　かったと　思ってんのか?<line>
+　ざんねんだったな　ハマグリ<line>
+　・・・とうっ!」<line>
+<:c><line>
+<wait><:func> <1><8> <1> <7><5><line>
+<:func> <4><line>
+<:obj> <2> <7> <1><6> <2><2><4> <1><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <2> <7> <1><4><0> <6><4> <4><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「な　なんてヤツだ!<line>
+　すいりゅうを　さかのぼりやがった!<line>
+　いったい　どうなってんだ?」<line>
+<redname><diamond>キョロスケ<line>
+「・・スタフィー!ボサッとしてねえで<line>
+　おいかけろ!　オメェのせいで<line>
+　にげられたんだセからな!!」<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <6> <1> <1><line>
+<:obj> <2> <2><line>
+<:func> <1><1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>キョロスケ<line>
+「すいりゅうを<line>
+　さかのぼるなんて・・・<line>
+　すげー　パワーだな・・」<line>
+<:end><line>
+<end>

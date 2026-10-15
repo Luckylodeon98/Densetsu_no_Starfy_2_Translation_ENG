@@ -1,0 +1,148 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $97C
+
+//<:sd><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<rname><diamond>カメッコたち<line>
+「あはは　やめろよー!　ワイワイ」<line>
+「イテテ　やったなー!　ガヤガヤ」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>カメッコたち<line>
+「もうー!　おにーちゃんたち<line>
+　しずかにしてよう・・」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>カメッコたち<line>
+「ワ純<$43>ワイ・・・ガヤガヤ・・・」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <0><line>
+<rname><diamond>プチオーグラ3ごう<line>
+「むにゃむにゃ・・あー　<line>
+　たいくつだにゃー・・　なにか<line>
+　おもしろいこと　ないかにゃー」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <1><line>
+<rname><diamond>プチオーグラ3ごう<line>
+「にゃ?　あいつら<line>
+　たスのしそうだにゃー」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>プチオーグラ3ごう<line>
+「ボクチンが　ヒマしてるってのに<line>
+　なんだか　ムカツクにゃー」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>プチオーグラ3ごう<line>
+「よーし　キレモス!　あいつらに<line>
+　キミの　まほうの　こなで<line>
+　いたずらして　やるんだにノゃー」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>キレモス<line>
+「モスモスー!　この『ふりょうの<line>
+　こな』で　あいつら　わるい子に<line>
+　してやるんだモスー!」<line>
+[<wait_time> <6><0>]<line>
+<:func> <0> <2><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <4><line>
+<rname><diamond>プチオーグラ3ごう<line>
+「むにゃむにゃ・・　さーて<line>
+　気づかれるまえに　たいさんにゃー<line>
+　けっかが　たのしみだにゃー」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <5><line>
+<rname><diamond>カメッコたち<line>
+「イテテ　なにすんだ!　コラァ!」<line>
+「なにをー!　テメー!<line>
+　やりやがったな!　コラァ!<$49>」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>カメッコたち<line>
+「うるさいねー!　あんたたち!<line>
+　あたいの　『ひっさつケンダマ』<line>
+　くらいたいのかい?」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>ボカボカ・・ボカボカ・・<line>
+　ボカボカ・・ボカボカ・・<line>
+　　ボカボカ・・ボカボカ・・<line>
+　　　ボカボカ・・ボカボカ・・<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <6><line>
+<rname><diamond>カメール<line>
+「これこれ　ボウヤたち<line>
+　ケンカしちゃ　いけませんよ<line>
+　おりこうさんに　しましょうね」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <7><line>
+<rname><diamond>カメッコたち<line>
+「あー?　ウッセーナ!<line>
+　だまってろ!」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <8><line>
+<rname><diamond>カメール<line>
+「ど・・どうしたの!　みんな<line>
+　そんな　わるい子になって・・」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <1><0><line>
+<rname><diamond>カメッコたち<line>
+「カンケーねーだろ!・・ったく<line>
+　なんか　しらけちゃったぜ・・」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>カメッコたち<line>
+「おい「!　オメーラ!　あそびに<line>
+　行こーぜ!」<line>
+「いいねー!　行こ行こ!」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <9><line>
+<rname><diamond>カメール<line>
+「これっ!　ちょっ・・　<line>
+　ちょっと　まちなさいー!<line>
+　ボウヤたちー!!」<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>カメール<line>
+「オーイオイオイオイ・・<line>
+　ボウヤたちが　ふりょうに・・<line>
+　なんでこんなことに・・シクシク」<line>
+[<wait_time> <1><8><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:exit><line>
+<end>

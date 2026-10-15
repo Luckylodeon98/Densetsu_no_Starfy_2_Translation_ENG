@@ -1,0 +1,85 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $542
+
+//<:sd><line>
+<:func> <1> <1><line>
+<:se><line>
+<:if> <2><4><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <2><4><0><0><line>
+<:obj> <2> <6><line>
+<:obj> <2> <1><0> <3> <1><line>
+<:obj> <1> <5> <2><line>
+<:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「コノヤローっ!<line>
+　こっちこーーいっ!!」<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3><line>
+<:obj> <2> <4><line>
+<rname><diamond>プチオーグラ2ごう<line>
+「ぎゃはははは!<line>
+　ヘンなハマグリが　なんか<line>
+　いってるー!」<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3> <1><line>
+<:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「なんだとーっ!　・・あ!スタフィー<line>
+　あのヤローだ　ハデヒラリさんの<line>
+　かぐを　めちゃめちゃにしたのは!」<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3><line>
+<:obj> <2> <4><line>
+<rname><diamond>プチオーグラ2ごう<line>
+「ふーん　てめーが　パパを<line>
+　ひどい目にあわせた　スタフィーか<line>
+　・・なんだ　ガキじゃねーか」<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3> <1><line>
+<:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「ガキは　じぶんだろうが!<line>
+　とっつかまえて<line>
+　おしおきしてやるっ!」<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3><line>
+<:obj> <2> <4><line>
+<rname><diamond>プチオーグラ2ごう<line>
+「できるもんなら　やってみろー!<line>
+　オレの　スピードに<line>
+　ついて　こられるならな!」<line>
+<:c><line>
+<wait><:func> <1><8> <1> <7><5><line>
+<:obj> <2> <1><0> <3> <2><line>
+[<wait_time> <7><0>]<line>
+<:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「なんて　ムカツク　ガキだ・・<line>
+<:obj> <1> <9> <2><line>
+　スタフィー!　おっかけろ!<line>
+　ハデヒラリさんの　かたきうちだ!」<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <5><line>
+<:func> <1><1> <0> <1><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>キョロスケ<line>
+「ここは　水のながれが　はげしいぞ<line>
+　今のオメェの　チカラじゃ<line>
+　水のながれには　さからえねえ」<line>
+<redname><diamond>キョロスケ<line>
+「すいり閧繧、に　入るときは<line>
+　じゅうぶん　ちゅういしろよ!」<line>
+<:end><line>
+<end>

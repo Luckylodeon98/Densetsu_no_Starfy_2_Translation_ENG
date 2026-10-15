@@ -1,0 +1,372 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 3-4-1
+//Block Range: $0 - $1A4A
+
+//<:if> <3><4><1><1> <go> <2><line>
+<:if> <3><4><0><0> <go> <1><line>
+<:flagon> <3><4><0><0><line>
+[<wait_time> <6><0>]<line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>キョロスケ<line>
+「スタフィー!　ちょいまちだ!<line>
+　ここにも　こんなものが<line>
+　あったぞ!」<line>
+<wait><:obj> <2> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+<rname><diamond>キョロスケ<line>
+「どうやら　こんどのヤツは<line>
+　あの　ガキどもの　<line>
+　いばしょを・・」<line>
+<redname><diamond>キョロスケ<line>
+「<textcolor_d>『おと』と『ひょうじ』で<textcolor_0><line>
+　<textcolor_d>おしえてくれる<textcolor_0>みたいだ・・」<line>
+<wait><:obj> <2> <2><line>
+<:func> <1><8> <1> <7><2><line>
+<rname><diamond>キョロスケ<line>
+「オメェ　これを　もって行け!」<line>
+<redname><diamond>キョロスケ<line>
+「ガキどもは　おそらく<line>
+　このあたりにノ　かくれている<line>
+　はずだ・・」<line>
+<redname><diamond>キョロスケ<line>
+「ガキどもの　近くにきたら<line>
+　レーダーが『おと』と<line>
+　『ひょうじ』で　知らせるから」<line>
+<redname><diamond>キョロスケ<line>
+「あやしいところを　みつけたら<line>
+　<textcolor_d>そのばしょで　『スピンアタック』<textcolor_0><line>
+　してみろ!」<line>
+<redname><diamond>キョロス<$58>ケ<line>
+「よーし!　わかったら行け!<line>
+　ガキども<textcolor_d>3びき<textcolor_0>とも<line>
+　みつけて　ここに　つれてこい!」<line>
+<wait><:sd><line>
+<:obj> <2> <2><line>
+<:flagon> <1><5><5><1><9><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>キョロスケ<line>
+「レーダーの<textcolor_d>『おと』<textcolor_0>と<line>
+　<textcolor_d>『ひょうじ』<textcolor_0>が　@みじかい<line>
+　かんかくで　なりはじめたら・・」<line>
+<redname><diamond>キョロスケ<line>
+「<textcolor_d>そのばしょで　『スピンアタック』<textcolor_0><line>
+　してみろ!」<line>
+<redname><diamond>キョロスケ<line>
+「オラ!　わかったら　さっさと<line>
+　ガキども<textcolor_d>3びき<textcolor_0>　つかまえて<line>
+　ここに　つれてこいよ」<line>
+<:end><line>
+<wait>:<2><line>
+<:sd><line>
+<:flagon><$66><$6C><$61><go><$6E> <3><4><1><2><line>
+<:func> <6> <1><line>
+[<wait_time> <2><0>]<line>
+<:obj> <4> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <2><0>]<line>
+<:obj> <3> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <2><0>]<line>
+<:obj> <5> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+<:se><line>
+<:obj> <1> <4><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>キョロスケ<line>
+「オメェらー　やっと　ぜんいん<line>
+　そろいやがったな!<line>
+　もう　にがさねえぞ!」<line>
+<:c><line>
+<wait><:obj> <4> <4><line>
+<:obj> <3> <4><line>
+<:obj> <5> <4><line>
+<rname><diamond>カメッコたち<line>
+「く・・くそー!」<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「てこずらせやがって・・<line>
+　おい!　オメェら!<line>
+　さっさと　かあちゃんとこカエレ!」<line>
+<redname><diamond>キョロスケ<line>
+「オメェらの　かあちゃん<line>
+　すげえ　しんぱい<line>
+　してんだぞ!」<line>
+<:c><line>
+<wait><:obj> <5> <4><line>
+<rname><diamond>カメッコちょうなん<line>
+「うるせーなー!　だいたい<line>
+　なんで　あんたらの　いうこと<line>
+　なんか　きかなきゃいけねーんだ」<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>カメッコじなん<line>
+「そのとおりだぜ!　それに<line>
+　かあちゃんは　いつも<line>
+　オレたちに・・」<line>
+<redname><diamond>カメッコじなん<line>
+「『べんきょうしろ』<line>
+　『べんきょうしろ』って<line>
+　うるせーんだ!」<line>
+<:c><line>
+<wait><:obj> <4> <4><line>
+<rname><diamond>カメッコいもうと<line>
+「そうだそうだー!　あたいにも<line>
+　きらいな『ピーマン』　むりやり<line>
+　たべさせようとするから　いやだ」<line>
+<:c><line>
+<wait><:obj> <5> <4><line>
+<rname><diamond>カメッコちょうなん<line>
+「そういうこった!<line>
+　おい!　行こーぜ!<line>
+　オメーラ!」<line>
+<redname><diamond>カメッコちょうなん<line>
+「こんな　わけわかんねー<line>
+　ハマグリに　つきあうこたー<line>
+　ねーよ」<line>
+<:c><line>
+<wait><:obj> <4> <4><line>
+<:obj> <3> <4><line>
+<rname><diamond>カメッコじなん　いもうと<line>
+「そうだなー!行こ行こ!」<line>
+<:c><line>
+<wait><:obj> <1> <5> <4><line>
+<rname><diamond>キョロスケ<line>
+「キ・・<line>
+　キサマらーーー・・・<line>
+　この・・」<line>
+<wait><:obj> <1> <6><line>
+<:obj> <1> <1><0> <0> <1><line>
+<:func> <1><8> <1> <7><6><line>
+<:obj> <1> <5> <5><line>
+<rname><diamond>キョロスケ<line>
+「大バカヤロウどもがぁぁぁぁぁぁぁ<line>
+　ぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁ<line>
+　ぁぁぁぁぁぁぁぁぁーーーー!!」<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <2> <4><line>
+<linealt>
+<:func> <1><8> <7><line>
+<:obj> <1> <1><1> <1> <3><2> <6><4><line>
+[<wait_time> <1><0>]<line>
+<:obj> <1> <5> <6><line>
+<:obj> <0> <1><1> <6><line>
+<:obj> <3> <1><1> <6> <3><2> <-><2><0><line>
+<:obj> <3> <0> <3><line>
+<:obj> <4> <1><1> <6> <1><8> <-><4><6><line>
+<:obj> <4> <0> <5><line>
+<:obj> <5> <1><1> <6> <0> <-><3><0><line>
+<:obj> <5> <0> <1><line>
+<:func> <8> <0> <1><5><line>
+<:func> <3> <4><line>
+<rname><diamond>キョロスケ<line>
+「だれのおかげで　今まで<line>
+　そだってこれたと　思って<line>
+　やがんだ!　コラァ!」<line>
+<redname><diamond>キョロスケ<line>
+「まいにち　うまいメシつくって<line>
+　くれて　あそんで　よごれた<line>
+　ふくも　きれいにあらってくれて」<line>
+<redname><diamond>キョロスケ<line>
+「ビョーキになったら　ひとばん<line>
+　じゅう　かんびょうして<line>
+　くれて・・」<line>
+<redname><diamond>キョロスケ<line>
+「オメェらが　がっこうで　もんだい<line>
+　おこしたとき　かわりに先生に<line>
+　アタマさげてくれたのは・・」<line>
+<redname><diamond>キョロスケ<line>
+「どこのだれだと　思ってやがんだ<line>
+　クソガキどもがぁー!」<line>
+<redname><diamond>キョロスケ<line>
+「いいか?　ミミのあな<line>
+　かっぽじって　よーっく<line>
+　ききやがれよ!」<line>
+<redname><diamond>キョロスケ<line>
+「ハラいためて　くるしみながら<line>
+　ひっしに　うんだ・・」<line>
+<redname><diamond>キョロスケ<line>
+「『じぶんの子供が　かわいくない<line>
+　オヤなんて　いねえ』んだ<line>
+　コラァー!」<line>
+<redname><diamond>キョロスケ<line>
+「『べんきょうしろ』とか<line>
+　『すききらいはダメ』だとか<line>
+　いうのも・・」<line>
+<redname><diamond>キョロスケ<line>
+「ぜんぶ　オメェらの　しょうらいや<line>
+　カラダのことを　思って<line>
+　いってるんだ!」<line>
+<redname><diamond>キョロスケ<line>
+「『オヤの　ありがたみに<line>
+　気づいたときには　すでに<line>
+　オヤはいねえ!』」<line>
+<redname><diamond>キョロスケ<line>
+「『いつまでも　あると思うな<line>
+　カネとオヤ』だ!」<line>
+<redname><diamond>キョロスケ<line>
+「あとで　こうかいしねえ　ためにも<line>
+　よくかんがえて　こうどうしてみろ<line>
+　わかったか!　クソガキどもが!」<line>
+<:c><line>
+<wait><:obj> <1> <5> <0><line>
+<:obj> <4> <4><line>
+<rname><diamond>カメッコいもうと<line>
+「う・・ほんとだ・・<line>
+　そういわれてみれば・・」<line>
+<redname><diamond>カメッコいもうと<line>
+「あたいが『ねつ』出したとき<line>
+　かあちゃん　ずっと　かんびょう<line>
+　してくれた・・」<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>カメッコじなん<line>
+「オレが　がっこうでケンカしたとき<line>
+　かあちゃん　かわりに　あやまりに<line>
+　行ってくれたっけ・・」<line>
+<:c><line>
+<wait><:obj> <5> <4><line>
+<rname><diamond>カメッコちょうなん<line>
+「そうだ・・そうだよ!<line>
+　かあちゃん　ボクたちのこと<line>
+　ずっと　みまもってくれてたんだ」<line>
+<:c><line>
+<wait><:obj> <4> <4><line>
+<:obj> <3> <4><line>
+<:obj> <5> <4><line>
+<rname><diamond>カメッコたち<line>
+「うう・・あたまがいたい・・」<line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <1><8> <1> <9><6><line>
+<:obj> <4> <6><line>
+<:obj> <3> <6><line>
+<:obj> <5> <6><line>
+<:obj> <4> <1><0> <0> <1><line>
+<:obj> <3> <1><0> <0> <1><line>
+<:obj> <5> <1><0> <0> <1><line>
+<:obj> <4> <1><0> <0> <2><line>
+<:obj> <3> <1><0> <0> <2><line>
+<:obj> <5> <1><0> <0> <2><line>
+[<wait_time> <6><0>]]<line>
+<:func> <8> <0> <9><9><line>
+<:func> <2><2> <-><2><line>
+なんと!　キレモスの　のろいが<line>
+とけて　カメッコたちは　元どおり<line>
+いい子たちになりました!<line>
+<:c><line>
+<wait><:obj> <5> <4><line>
+<rname><diamond>カメッコちょうなん<line>
+「ありがとう!　きみたち!<line>
+　ボクらが　まちがっていたよ」<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<:obj> <7> <1><0> <0> <2><line>
+<rname><diamond>カメッコじなん<line>
+「オレらは　だれかに<line>
+　あやつられていたんだ・・」<line>
+<:c><line>
+<wait><:obj> <4> <4><line>
+<rname><diamond>カメッコいもうと<line>
+「えーん・・かあちゃん<line>
+　ゴメンナサイーー」<line>
+<:c><line>
+<wait><:obj> <5> <4><line>
+<rname><diamond>カメッコちょうなん<line>
+「これから　かあ<$A0>ちゃんのところに<line>
+　あやまりに　いってくるよ<line>
+　ほんとにありがとう!」<line>
+<:c><line>
+<wait>:<1><0><0><line>
+<:obj> <4> <7> <2><0><0> <2><2><0> <2><0><line>
+[<wait_time> <1><7>]<line>
+<:obj> <3> <7> <2><0><0> <2><1><0> <2><6><line>
+[<wait_time> <9>]<line>
+<:obj> <5> <7> <2><0><0> <2><3><0> <3><0><line>
+[<wait_time> <7><0>]<line>
+<:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「ふぅ・・やっと　わかって<line>
+　くれたか・・<line>
+　ああ・・しんど・<$45>・」<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <7> <6><line>
+<:obj> <7> <1><0> <0> <1><line>
+<:obj> <7> <2> <1><line>
+<:obj> <7> <7> <1><4><0> <0> <4><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <7> <4><line>
+<:func> <1><8> <0> <2><1><line>
+<rname><diamond>プチオーグラ3ごう<line>
+「にゃー!　ムカツクにゃー!<line>
+　なんだ　あのハマグリはー!」<line>
+<:c><line>
+<redname><diamond>キレモス<line>
+「モスモスー!　おいらの　まほうが<line>
+　やぶら轤黷驍ニは・・」<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「なんだ?　オメェらは!<line>
+　・・・・・!!<line>
+　さては　オメェらのしわざか!」<line>
+<:c><line>
+<wait><:obj> <7> <4><line>
+<rname><diamond>プチオーグラ3ごう<line>
+「おぼえてるんだにゃー!<line>
+　しかえしは　きっとして<line>
+　やるんだにゃー」<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <7> <7> <1><1><0> <1><6> <3><0><line>
+[<wait_time> <6><0>]<line>
+<:flagon> <3><4><0><1><line>
+<:func> <1><8> <1> <7><4><line>
+[<wait_time> <2>]<line>
+<:obj> <7> <2><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <5> <2><line>
+<:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「まてコラー!　しあわせな<line>
+　『かてい』を　こわそうと<line>
+　するヤツは・・」<line>
+<redname><diamond>キョロスケ<line>
+「オレさまは　ぜってー<line>
+　ゆるさねー!!<line>
+　行くぞ!　スタフィー!」<line>
+<redname><diamond>キョロスケ<line>
+「とっとと　ここを　ひきあげて<line>
+　アイツらの　あとを<line>
+　おうんだ!」<line>
+<wait><:func> <4><line>
+<:obj> <1> <7> <6><4> <0> <2><0><line>
+[<wait_time> <1><0>]<line>
+<:sd><line>
+<:func> <2> <2><line>
+<:func> <1><8> <7><line>
+<:func> <1><0><line>
+<:obj> <1> <2><line>
+<:obj> <3> <2><line>
+<:obj> <4> <2><line>
+<:obj> <5> <2><line>
+<:obj> <7> <2><line>
+<:func> <8> <0> <9><9><line>
+:<$66><$6C><$61><go><$66><$66> <1><5><5><1><3><line>
+:<$66><$6C><$61><go><$66><$66> <1><5><5><1><4><line>
+:<$66><$6C><$61><go><$66><$66> <1><5><5><2><0><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>

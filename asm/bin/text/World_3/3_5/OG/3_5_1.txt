@@ -1,0 +1,146 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 3-5-1
+//Block Range: $0 - $A6E
+
+//<:if> <3><5><0><0> <go> <1><line>
+<:sd><line>
+[<wait_time> <6><0>]<line>
+<:flagon> <3><5><0><0><line>
+<:func> <6> <1><line>
+<:se><line>
+<:obj> <2> <1><0> <0> <1><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>カメール<line>
+「キョロスケさん!<line>
+　キョロスケさん!」<line>
+<redname><diamond>カメール<line>
+「ほら　みてください!<line>
+　ボウヤたちが　かえって<line>
+　きましたー!」<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <0><line>
+<:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「お!　よかったな!<line>
+　オレさまの『せっきょう』が<line>
+　きいたかな?」<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <0> <1><line>
+<rname><diamond>カメール<line>
+「キョロスケさんの　おかげで<line>
+　あやつられていた　のろいが<line>
+　とけたみたいなんです」<line>
+<redname><diamond>カメール<line>
+「でも　こわいですわ<line>
+　そんなワルモノが　<line>
+<linealt>
+　この近くに　いるなんて・・」<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <0><line>
+<:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「しんぱいすんな!<line>
+　オレさまが　たいじしてきて<line>
+　やっからよ」<line>
+<redname><diamond>キョロスケ<line>
+「だいたいの　いばしょは<line>
+　つかんでるからな」<line>
+<redname><diamond>キョロスケ<line>
+「たぶん　このすぐ先に<line>
+　いるはずだ」<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <0> <1><line>
+<rname><diamond>カメール<line>
+「ほんとに　ありがとう!<line>
+　できれば　なにか　おれいを<line>
+　したいのですが・・」<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <0><line>
+<:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「気にすんなって!<line>
+　オレさまは　なにも<line>
+　のぞんじゃいねえしよ」<line>
+<redname><diamond>キョロスケ<line>
+「そんなことより　オメェら<line>
+　ちゃんと　『おやこうこう』<line>
+　するんだぞ!」<line>
+<:c><line>
+<wait><:obj> <4> <4><line>
+<:obj> <3> <4><line>
+<:obj> <5> <4><line>
+<rname><diamond>カメッコたち<line>
+「はーい<line>
+　ありがとう!<line>
+　キョロスケー!」<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「よし!　んじゃ　ワルモノ<line>
+　ぶったおしに行くか!<line>
+　スタフィー!」<line>
+<wait><:obj> <1> <9> <2> <1><line>
+<rname><diamond>キョロスケ<line>
+「なんだ?　スタフィー<line>
+『今回は　やけに　いい人になって<line>
+　いったいどうしたの?』だと?」<line>
+<redname><diamond>キョロスケ<line>
+「オレさまはな・・オレさまと<line>
+　同じような　かんきょうで<line>
+　がんばって　生きてる・・」<line>
+<redname><diamond>キョロスケ<line>
+「アイツらみてーなの　みると<line>
+　おうえんしたく　なるんだよ」<line>
+<redname><diamond>キョロスケ<line>
+「まっ　なにふじゆうない<line>
+　ヌクヌクのボンボンな　オメェには<line>
+　わかんねーだろうなぁ」<line>
+<redname><diamond>キョロスケ<line>
+「あー　でも　やっぱいいな<line>
+　『かぞく』って・・」<line>
+<redname><diamond>キョロスケ<line>
+「アイツらみてたら<line>
+　おとうとたちのこと<line>
+　思い出しちゃったぜ」<line>
+<redname><diamond>キョロスケ<line>
+「そうだ!　スタフィー!<line>
+　こんど　オレさまんち<line>
+　あそびにこいよ」<line>
+<redname><diamond>キョロスケ<line>
+「この近くに　あるんだよ<line>
+　まあ　オメェんちみてえに<line>
+　いいところじゃねえけど・・」<line>
+<redname><diamond>キョロスケ<line>
+<:func> <1><8> <1> <5><2><line>
+「よし　今<textcolor_d>『マップがめん』から<textcolor_0><line>
+　<textcolor_d>『キョロスケさまのいえ』へ<textcolor_0><line>
+　<textcolor_d>行けるようにしてやった<textcolor_0>からよ」<line>
+<redname><diamond>キョロスケ<line>
+「あとで　気がむいたら<line>
+　あそびに行ってみろ」<line>
+<redname><diamond>キョロスケ<line>
+「わかったら　行くぞオラ!<line>
+　あのフ　とんでもねえ　ワルモノを<line>
+　こらしめてやるんだ!」<line>
+<:c><line>
+<wait><:func> <4><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:obj> <1> <9> <2> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>キョロスケ<line>
+「<textcolor_d>『マップがめん』から<textcolor_0><line>
+　<textcolor_d>『キョロスケさまのいえ』へ<textcolor_0><line>
+　<textcolor_d>行けるようにしてやった<textcolor_0>から・・」<line>
+<redname><diamond>キョロスケ<line>
+「あとで　気がむいたら<line>
+　あそびに行ってみろ」<line>
+<:end><line>
+<end>

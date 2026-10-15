@@ -1,0 +1,12 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Save Point Message
+//Block Range: $0 - $86
+
+:func 22 -1<line>
+Have you gotten used to the <textcolor_d>Star Spin<textcolor_0> yet?<line>
+Let's attack various things<line>
+and get used to it!<line>
+:end<line>
+<end>
+

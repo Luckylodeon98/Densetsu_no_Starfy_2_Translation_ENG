@@ -1,0 +1,11 @@
+#GAME NAME:		Densetsu no Stafy 2
+
+#BLOCK NAME:		World 3-5-3
+#TYPE:			NORMAL
+#METHOD:		RAW
+#SCRIPT START:		$0
+#SCRIPT STOP:		$10E
+#TABLE:			STARFY2JPN.TBL
+#COMMENTS:		No		//start first line with //
+#END BLOCK				//remainder of comment placement
+					//is handled by control codes

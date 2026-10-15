@@ -1,0 +1,93 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $642
+
+//<:sd><line>
+<:func> <1> <2><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:if> <2><3><0><2> <go> <1><line>
+<:func> <2><2> <-><2><line>
+<:flagon> <2><3><0><2><line>
+<:obj> <2> <4><line>
+<:func> <1><8> <1> <5><2><line>
+[<wait_time> <3><0>]<line>
+<rname><diamond>メカニじいさん<line>
+「すっかり　カンは<line>
+　とりもどしたようじゃな」<line>
+<redname><diamond>メカニじいさん<line>
+「<textcolor_d>『ききゅう』<textcolor_0>は　あちこちに<line>
+　おいておくから　じゆうに<line>
+　使って　よいぞ」<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「おいおい　じいさん<line>
+　せっかく　てつだってやったのに<line>
+　おれいのひとつも　ないのかよ?」<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>メカニじいさん<line>
+「そうじゃな・・<line>
+　このあいだのあらしの日<line>
+　めずらしいものを　ひろったから」<line>
+<redname><diamond>メカニじいさん<line>
+「てつだいの　れいに<line>
+　くれてやると　しようかのう」<line>
+<redname><diamond>メカニじいさん<line>
+「わしの　<textcolor_d>うしろの<line>
+　トビラ<textcolor_0>を　くぐるがよいぞ」<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <0><line>
+<:obj> <1> <4><line>
+<rname><diamond>キョロスケ<line>
+「下にもどりたい　ときは<line>
+　あの左の　トビラを<line>
+　くぐると　ちかみちだぞ」<line>
+<redname><diamond>キョロスケ<line>
+「下から　また　ここに　すぐ<line>
+　きたいときも　たしか<line>
+　ぬけみちが　あったはずだ」<line>
+<redname><diamond>キョロスケ<line>
+「今まで　しまってた　トビラを<line>
+　とおってみると　いいかも<line>
+　しれねえな・・・」<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>メカニじいさん<line>
+「下にもどる　トビラの　カギは<line>
+　わしが　あけておいてやろう<line>
+　じゃあ　行ってくるのじゃ!」<line>
+<:c><line>
+<wait><:sd><line>
+<:obj> <1> <9> <2> <0><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><1> <0> <1><line>
+<:obj> <2> <2><line>
+<:flagon> <2><3><0><3><line>
+<:flagon> <1><5><7><0><0><line>
+<:func> <1><6> <1><line>
+<:obj> <0> <9> <2> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><textspeed><$64><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>キョロスケ<line>
+「下にもどりたい　ときは<line>
+　あの左の　トビラを<line>
+　くぐると　ちかみちだぞ」<line>
+<redname><diamond>キョロスケ<line>
+「下から　また　ここに　すぐ<line>
+　きたいときも　たしか<line>
+　ぬけみちが　あったはずだ」<line>
+<redname><diamond>キョロスケ<line>
+「ききゅうに　のったままだと<line>
+<linealt>
+　ぬけみちの　トビラは<line>
+　くぐれないから　ちゅういしろよ」<line>
+<end>

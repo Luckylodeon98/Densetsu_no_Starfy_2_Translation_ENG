@@ -1,0 +1,21 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $132
+
+//<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>キョロスケ<line>
+「さっき　あのガキが　ほのおを<line>
+　ふく　のりものに　のってるのを<line>
+　みちまったんだ・・」<line>
+<redname><diamond>キョロスケ<line>
+「あれじゃ　うかつにさわると<line>
+　ヤケドしちまうかもな」<line>
+<redname><diamond>キョロスケ<line>
+「あのガキが　バテるのを<line>
+　@まつんだ!<line>
+　チャンスは　そのときだぞ!」<line>
+<end>

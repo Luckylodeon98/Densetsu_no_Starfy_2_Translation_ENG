@@ -1,0 +1,23 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $11C
+
+//<:sd><line>
+<:func> <3> <2> <2><line>
+<:func> <0> <0><line>
+<:se><line>
+たからばこの中には<line>
+グッズ<textcolor_d>『ぐるぐるメガネ』<textcolor_1>が<line>
+入っていたよ!<line>
+<:c><line>
+<wait>『ききゅう』っていう　のりものを<line>
+けんきゅうしている　おじいさんが<line>
+この　近くに　すんでるんだって!<line>
+いったい　どんな人かな?<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <1> <0><line>
+<:func> <2> <2> <2><line>
+<:exit><line>
+<end>

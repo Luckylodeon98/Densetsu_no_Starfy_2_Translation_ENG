@@ -1,0 +1,12 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Save Point Message
+//Block Range: $0 - $72
+
+:func 22 -1<line>
+Did you understand how the mechanism works?<line>
+If you don't, ask Moe!<line>
+He'll give you some advice!<line>
+:end<line>
+<end>
+

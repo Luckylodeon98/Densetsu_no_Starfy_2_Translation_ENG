@@ -1,0 +1,12 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Save Point Message
+//Block Range: $0 - $86
+
+:func 22 -1<line>
+Old Man Mechani is researching<line>
+a ride called a "<textcolor_d>Ｂｌｉｍｐ<textcolor_0>"!<line>
+Didn't he already make one!?<line>
+:end<line>
+<end>
+

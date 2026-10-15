@@ -1,0 +1,123 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $74C
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <3><2><0><9> <go> <1><line>
+<:flagon> <3><2><0><9><line>
+<:sd><line>
+<:func> <1> <2><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:obj> <2> <0> <3><line>
+<:obj> <1> <4><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Moe<line>
+Ha!<line>
+We finally caught the brat!<line>
+<redname><diamond>Moe<line>
+Now hurry up and go back to your mom!<line>
+She's been worried sick about you!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Sisturt<line>
+Who the heck are you clowns?<line>
+You tryin' to lecture me!?<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Of course!<line>
+Do you have any idea how much<line>
+your mom worried about you!?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Sisturt<line>
+Can it!<line>
+Like I'd ever go back<line>
+to that nagging hag!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+So words won't work, huh?....<line>
+Guess I gotta bring you back by force!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Sisturt<line>
+U-urg!... F-fine!<line>
+I'll go home...<line>
+<:c><line>
+<wait><:func> <1><8> <1> <7><4><line>
+<:obj> <3> <6><line>
+<:obj> <3> <1><0> <0> <1><line>
+<rname><diamond>Brotle<line>
+Yo! Lil' Sis!<line>
+Come on!<line>
+<:obj> <2> <9> <2> <1><line>
+<redname><diamond>Brotle<line>
+I got a hidin' place<line>
+on the <textcolor_d>island<textcolor_0> up ahead!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Sisturt<line>
+Thanks bro!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <3> <1><0> <0> <2><line>
+[<wait_time> <1><0>]<line>
+<:obj> <3> <2><line>
+<:flagon> <3><2><0><8><line>
+<:obj> <2> <0><line>
+<:obj> <2> <7> <3><2> <0> <2><0><line>
+[<wait_time> <5><0>]<line>
+<:obj> <2> <0> <3><line>
+<:obj> <2> <9> <2><line>
+<:obj> <2> <4><line>
+<rname><diamond>Sisturt<line>
+Later losers!<line>
+Looks like you haven't caught me yet!<line>
+Hahahaha!!!<line>
+<:c><line>
+<wait><:obj> <2> <9> <2> <1><line>
+[<wait_time> <1><0>]<line>
+<:obj> <2> <2><line>
+[<wait_time> <1><0>]<line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Wait a minute!<line>
+Come back here!<line>
+<redname><diamond>Moe<line>
+I wasn't done lecturin' you yet!!!<line>
+<redname><diamond>Moe<line>
+Annoyin' punks!...<line>
+<:obj> <1> <9> <2><line>
+C'mon Starf'!<line>
+After 'em!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <3> <2><line>
+<:obj> <2> <2><line>
+<:func> <3> <2><line>
+<:se><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+What're ya standin' around for!?<line>
+Let's get outta here already <line>
+and head for the next <textcolor_d>island<textcolor_0>!<line>
+<:end><line>
+<end>

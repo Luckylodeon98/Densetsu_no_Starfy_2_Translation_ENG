@@ -1,0 +1,22 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 3-4-6
+//Block Range: $0 - $DC
+
+//<:sd><line>
+<:func> <3> <2> <2><line>
+<:func> <0> <0><line>
+<:se><line>
+たからばこの中には<line>
+グッズ<textcolor_d>『かっぽうぎ』<textcolor_1>が<line>
+入っていたよ!<line>
+<:c><line>
+<wait>『カメッコ』を　あやつっていた<line>
+ワルモノたちを　たおしに<line>
+行こう!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <1> <0><line>
+<:func> <2> <2> <2><line>
+<:exit><line>
+<end>

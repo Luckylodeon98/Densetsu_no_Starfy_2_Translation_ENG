@@ -1,0 +1,26 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 3-5-2
+//Block Range: $0 - $196
+
+//<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>キョロスケ<line>
+「やっと　つきとめたぞ!<line>
+　この先に　さっきの<line>
+　ワルモノがいる」<line>
+<redname><diamond>キョロスケ<line>
+「なんか　まほうで　カラダ<line>
+　まもってやがったからな・・」<line>
+<redname><diamond>キョロスケ<line>
+「ふつうに　こうげきしても<line>
+　きかねえかもな・<$45>・<line>
+　うーん　どうしたもんか・・」<line>
+<redname><diamond>キョロスケ<line>
+「なんとかにげまわって<line>
+　ワルモノの　たいせいが<line>
+　くずれたときでも　ねらってみろ」<line>
+<:end><line>
+<end>

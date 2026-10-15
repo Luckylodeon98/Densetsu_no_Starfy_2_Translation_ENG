@@ -1,0 +1,94 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $542
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1> <1><line>
+<:se><line>
+<:if> <2><4><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <2><4><0><0><line>
+<:obj> <2> <6><line>
+<:obj> <2> <1><0> <3> <1><line>
+<:obj> <1> <5> <2><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+C'mere!!!<line>
+I got a bone to pick with you, punk!<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3><line>
+<:obj> <2> <4><line>
+<rname><diamond>Puchi Ogura #2<line>
+Gyahahahaha!<line>
+What're you on about,<line>
+you clammy weirdo!?<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3> <1><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+WHY YOU LITTLE-!!!... Hey, Starf'!<line>
+This is the jerk who<line>
+messed with Ms. Ruby's stuff!<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3><line>
+<:obj> <2> <4><line>
+<rname><diamond>Puchi Ogura #2<line>
+So you're Starfy,<line>
+the guy who gave Papa some trouble...<line>
+But, you're just some brat!<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3> <1><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Looked in a mirror recently!?<line>
+You're in for a world of hurt<line>
+when I get my hands on you!!<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3><line>
+<:obj> <2> <4><line>
+<rname><diamond>Puchi Ogura #2<line>
+I'd like to see you try!<line>
+Just try to keep up with my speed,<line>
+slowpokes!<line>
+<:c><line>
+<wait><:func> <1><8> <1> <7><5><line>
+<:obj> <2> <1><0> <3> <2><line>
+[<wait_time> <7><0>]<line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+That little brat!... <line>
+<:obj> <1> <9> <2><line>
+After him, Starf'!<line>
+This is payback for what he did to Ms. Ruby!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <5><line>
+<:func> <1><1> <0> <1><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+This place has some strong currents.<line>
+Considerin' your strength right now,<line>
+I don't think you could fight their flow.<line>
+<redname><diamond>Moe<line>
+Best thing to tell ya is<line>
+to watch out which current you enter!<line>
+<:end><line>
+<end>

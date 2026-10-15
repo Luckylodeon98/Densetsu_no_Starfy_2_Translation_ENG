@@ -1,0 +1,70 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 3-4-2
+//Block Range: $0 - $40A
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <3><4><1><0> <go> <1><line>
+<:flagon> <3><4><1><0><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Gaganmo<line>
+Sooooo gooooooood~!<line>
+The only way to eat oden<line>
+is with Ganmodoki for sure!<line>
+<redname><diamond>Gaganmo<line>
+Oh?... Hey you!<line>
+Your body would be perfect for this!<line>
+<redname><diamond>Gaganmo<line>
+How about it?<line>
+Want me to teach you my special technique?<line>
+<redname><diamond>Gaganmo<line>
+I call it the <textcolor_d>Glide<textcolor_0>!<line>
+You can use it to cross huse gaps!<line>
+It's pretty nift!<line>
+<redname><diamond>Gaganmo<line>
+Go through the door<line>
+and then try to make it back here by Gliding!<line>
+<:c><line>
+<wait><:sd><line>
+<linealt>
+<:func> <4><line>
+<:func> <1> <3><line>
+<:flagon> <3><4><0><9><line>
+<:func> <1><8> <1> <7><4><line>
+<:func> <2><4> <9><9><line>
+<:func> <1><4> <2> <4><line>
+<:obj> <0> <2><line>
+<:func> <1><8> <1> <4><9><line>
+[<wait_time> <2><0>]<line>
+<:obj> <0> <1><1> <2> <4><0><line>
+<:obj> <0> <2> <1><line>
+<:func> <1><4> <2> <4><8><line>
+:<$66><$6C><$61><go><$66><$66> <3><4><0><9><line>
+<:flagon> <1><5><0><0><3><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Gaganmo<line>
+Doesn't this Glide<line>
+make you feel so free?<line>
+<redname><diamond>Gaganmo<line>
+Huh?<line>
+"Is it really ok for me<line>
+to teach you my technique?"<line>
+<redname><diamond>Gaganmo<line>
+Sure! Of course!<line>
+You're aaaaaaall good!<line>
+<redname><diamond>Gaganmo<line>
+As long as I have my ganmodoki,<line>
+everything's gonna be alright!~~~<line>
+<linealt>
+<:end><line>
+<end>

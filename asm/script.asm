@@ -1,12 +1,12 @@
 .gba				; Set the architecture to GBA
-.open "rom/output.gba",0x08000000		; Open input.gba for output.
+.open "rom/output.gba",0x08000000		; Open output.gba for output.
 					; 0x08000000 will be used as the
 					; header size
 
 
 ;Compressed Text files
-.org 0x08BF1EA8
-.area 0x08BF1EAC
+.org 0x09000000
+.area 0x09000004
 ;Intro
 .align 4
 Intro_1:
@@ -26,7 +26,7 @@ Intro_5:
 .align 4
 PregameCutscene:
 	.incbin asm/bin/text/Intro/PreGame_Intro/PregameIntro.bin
-;World 1
+;World 1 World Map
 .align 4
 WorldMap_1_1:
 	.incbin asm/bin/text/World_1/WorldMap/1-1.bin
@@ -112,7 +112,7 @@ World1_4_Roundkey:
 .align 4
 World1_4_Goal_1:
 	.incbin asm/bin/text/World_1/1_4/Goal1-4-1.bin
-;World 2
+;World 2 World Map
 .align 4
 WorldMap_2_1:
 	.incbin asm/bin/text/World_2/WorldMap/2-1.bin
@@ -174,7 +174,46 @@ World2_1_FurniturePickup9:
 .align 4
 World2_1_Goal_1:
 	.incbin asm/bin/text/World_2/2_1/2_1_Goal_1.bin
-
+;World 2-2
+.align 4
+World2_2_1:
+	.incbin asm/bin/text/World_2/2_2/2_2_1.bin
+.align 4
+World2_2_PopUp:
+	.incbin asm/bin/text/World_2/2_2/2_2_PopUp.bin
+.align 4
+World2_2_Goal_1:
+	.incbin asm/bin/text/World_2/2_2/2_2_Goal_1.bin
+;World 2-3
+.align 4
+World2_3_1:
+	.incbin asm/bin/text/World_2/2_3/2_3_1.bin
+.align 4
+World2_3_2:
+	.incbin asm/bin/text/World_2/2_3/2_3_2.bin
+.align 4
+World2_3_3:
+	.incbin asm/bin/text/World_2/2_3/2_3_3.bin
+.align 4
+World2_3_Goal_1:
+	.incbin asm/bin/text/World_2/2_3/2_3_Goal_1.bin
+	
+;World 2-4
+.align 4
+World2_4_1:
+	.incbin asm/bin/text/World_2/2_4/2_4_1.bin
+.align 4
+World2_4_2:
+	.incbin asm/bin/text/World_2/2_4/2_4_2.bin
+.align 4
+World2_4_3:
+	.incbin asm/bin/text/World_2/2_4/2_4_3.bin
+.align 4
+World2_4_4:
+	.incbin asm/bin/text/World_2/2_4/2_4_4.bin
+.align 4
+World2_4_Goal_1:
+	.incbin asm/bin/text/World_2/2_4/2_4_Goal_1.bin
 ;World 3
 .align 4
 WorldMap_3_1:
@@ -206,7 +245,89 @@ WorldMap_3_9:
 .align 4
 WorldMap_Moe_House:
 	.incbin asm/bin/text/World_3/WorldMap/1MoeHouse.bin
-;World 4
+;World 3_1
+.align 4
+World3_1_1:
+	.incbin asm/bin/text/World_3/3_1/3_1_1.bin
+.align 4
+World3_1_2:
+	.incbin asm/bin/text/World_3/3_1/3_1_2.bin
+.align 4
+World3_1_3:
+	.incbin asm/bin/text/World_3/3_1/3_1_3.bin
+.align 4
+World3_1_4:
+	.incbin asm/bin/text/World_3/3_1/3_1_4.bin
+.align 4
+World3_1_4_Cutscene:
+	.incbin asm/bin/text/World_3/3_1/3_1_Cutscene.bin
+.align 4
+World3_1_5:
+	.incbin asm/bin/text/World_3/3_1/3_1_5.bin
+.align 4
+World3_1_Goal_1:
+	.incbin asm/bin/text/World_3/3_1/3_1_Goal_1.bin
+;World 3-2
+.align 4
+World3_2_1:
+	.incbin asm/bin/text/World_3/3_2/3_2_1.bin
+.align 4
+World3_2_3:
+	.incbin asm/bin/text/World_3/3_2/3_2_3.bin
+.align 4
+World3_2_5:
+	.incbin asm/bin/text/World_3/3_2/3_2_5.bin
+.align 4
+World3_2_Goal_1:
+	.incbin asm/bin/text/World_3/3_2/3_2_Goal_1.bin
+.align 4
+World3_3_1:
+	.incbin asm/bin/text/World_3/3_3/3_3_1.bin
+.align 4
+World3_3_2:
+	.incbin asm/bin/text/World_3/3_3/3_3_2.bin
+.align 4
+World3_3_3:
+	.incbin asm/bin/text/World_3/3_3/3_3_3.bin
+.align 4
+World3_3_Goal_1:
+	.incbin asm/bin/text/World_3/3_3/3_3_Goal_1.bin
+;World 3-4
+.align 4
+World3_4_1:
+	.incbin asm/bin/text/World_3/3_4/3_4_1.bin
+.align 4
+World3_4_2:
+	.incbin asm/bin/text/World_3/3_4/3_4_2.bin
+.align 4
+World3_4_3:
+	.incbin asm/bin/text/World_3/3_4/3_4_3.bin
+.align 4
+World3_4_4:
+	.incbin asm/bin/text/World_3/3_4/3_4_4.bin
+.align 4
+World3_4_5:
+	.incbin asm/bin/text/World_3/3_4/3_4_5.bin
+.align 4
+World3_4_6:
+	.incbin asm/bin/text/World_3/3_4/3_4_6.bin
+.align 4
+World3_4_Goal_1:
+	.incbin asm/bin/text/World_3/3_4/3_4_Goal_1.bin
+;World 3-5
+.align 4
+World3_5_1:
+	.incbin asm/bin/text/World_3/3_5/3_5_1.bin
+.align 4
+World3_5_2:
+	.incbin asm/bin/text/World_3/3_5/3_5_2.bin
+.align 4
+World3_5_3:
+	.incbin asm/bin/text/World_3/3_5/3_5_3.bin
+.align 4
+World3_5_Goal_1:
+	.incbin asm/bin/text/World_3/3_5/3_5_Goal_1.bin
+;World 4 World Map
 .align 4
 WorldMap_4_1:
 	.incbin asm/bin/text/World_4/WorldMap/4-1.bin
@@ -666,10 +787,23 @@ ShopChest31:
 .align 4
 ShopChest32:
 	.incbin asm/bin/text/ShopChests/1ShopChest32.bin
+;Stage Function text files (They contain important functions, not text)
+.align 4
+World1_2_1Func:
+	.incbin asm/bin/text/World_1/1_2/do_not_touch/1_2_1Func.bin
+.align 4
+World1_3_1Func:
+	.incbin asm/bin/text/World_1/1_3/do_not_touch/1_3_1Func.bin
+.align 4
+World3_2_2:
+	.incbin asm/bin/text/World_3/3_2/do_not_touch/3_2_2.bin
+.align 4
+World3_2_4:
+	.incbin asm/bin/text/World_3/3_2/do_not_touch/3_2_4.bin
 .endarea
 
 ;	Pointers
-
+;=======================================================
 ;Intro
 .org 0x0801DC58
 	.word Intro_1
@@ -793,7 +927,7 @@ ShopChest32:
 	
 .org 0x082C8990
 	.word World1_4_Goal_1
-;World 2
+;World 2 World Map
 .org 0x082C1F08
 	.word WorldMap_2_1
 	
@@ -865,8 +999,110 @@ ShopChest32:
 	
 .org 0x082C8994
 	.word World2_1_Goal_1
+
+;World 2-2
+.org 0x0814E288
+	.word World2_2_1
+
+.org 0x0814E28C
+	.word World2_2_PopUp
+
+.org 0x082C8998
+	.word World2_2_Goal_1
 	
-;World 3
+;World 2-3
+.org 0x0814E290
+	.word World2_3_1
+
+.org 0x0814E294
+	.word World2_3_2
+
+.org 0x0814E298
+	.word World2_3_3
+	
+.org 0x082C899C
+	.word World2_3_Goal_1
+
+;World 2-4
+.org 0x0814E29C
+	.word World2_4_1
+.org 0x0814E2A0
+	.word World2_4_2
+.org 0x0814E2A4
+	.word World2_4_3
+.org 0x0814E2A8
+	.word World2_4_4
+.org 0x082C89A0
+	.word World2_4_Goal_1
+	
+	
+	
+;World 3-1
+.org 0x0814E2AC
+	.word World3_1_1
+.org 0x0814E2B0
+	.word World3_1_2
+.org 0x0814E2B4
+	.word World3_1_3
+.org 0x0814E2B8
+	.word World3_1_4
+.org 0x0814E2BC
+	.word World3_1_5
+.org 0x0811B5D4
+	.word World3_1_4_Cutscene
+.org 0x082C89A4
+	.word World3_1_Goal_1
+
+;World 3-2
+.org 0x0814E2C0
+	.word World3_2_1
+.org 0x0814E2C4
+	.word World3_2_2
+.org 0x0814E2C8
+	.word World3_2_3
+.org 0x0814E2CC
+	.word World3_2_4
+.org 0x0814E2D0
+	.word World3_2_5
+.org 0x082C89A8
+	.word World3_2_Goal_1
+
+;World 3-3
+.org 0x0814E2D4
+	.word World3_3_1
+.org 0x0814E2D8
+	.word World3_3_2
+.org 0x0814E2DC
+	.word World3_3_3
+.org 0x082C89AC
+	.word World3_3_Goal_1
+
+;World 3-4
+.org 0x0814E2E0
+	.word World3_4_1
+.org 0x0814E494
+	.word World3_4_2
+.org 0x0814E2F0
+	.word World3_4_3
+.org 0x0814E2EC
+	.word World3_4_4
+.org 0x0814E2E8
+	.word World3_4_5
+.org 0x0814E2E4
+	.word World3_4_6
+.org 0x082C89B0
+	.word World3_4_Goal_1
+
+;World 3-5
+.org 0x0814E2F4
+	.word World3_5_1
+.org 0x0814E2F8
+	.word World3_5_2
+.org 0x0814E2FC
+	.word World3_5_3
+.org 0x082C89B4
+	.word World3_5_Goal_1
+;World 3 World Map
 .org 0x082C1FA0
 	.word WorldMap_3_1
 	
@@ -914,7 +1150,7 @@ ShopChest32:
 
 .org 0x082C28C8
 	.word WorldMap_Moe_House ;After Main Story
-;World 4
+;World 4 World Map
 .org 0x082C2068
 	.word WorldMap_4_1
 .org 0x082C2978
@@ -943,7 +1179,7 @@ ShopChest32:
 	.word WorldMap_4_8
 .org 0x082C2A38
 	.word WorldMap_4_9
-;World 5
+;World 5 World Map
 .org 0x082C2118
 	.word WorldMap_5_1
 .org 0x082C2A88
@@ -972,7 +1208,7 @@ ShopChest32:
 	.word WorldMap_5_8
 .org 0x082C2B48
 	.word WorldMap_5_9
-;World 6
+;World 6 World Map
 .org 0x082C21C8
 	.word WorldMap_6_1
 .org 0x082C2B98
@@ -1002,7 +1238,7 @@ ShopChest32:
 .org 0x082C2C58
 	.word WorldMap_6_9
 	
-;World 7
+;World 7 World Map
 .org 0x082C2278
 	.word WorldMap_7_1
 .org 0x082C2CA8
@@ -1031,7 +1267,7 @@ ShopChest32:
 	.word WorldMap_7_8
 .org 0x082C2D68
 	.word WorldMap_7_9
-;World 8
+;World 8 World Map
 .org 0x082C2328
 	.word WorldMap_8_1
 .org 0x082C2DB8
@@ -1064,7 +1300,7 @@ ShopChest32:
 	.word WorldMap_8_9
 .org 0x082C2E90
 	.word WorldMap_8_10
-;World 9
+;World 9 World Map
 .org 0x082C23F0
 	.word WorldMap_9_1
 .org 0x082C2EE0
@@ -1097,7 +1333,7 @@ ShopChest32:
 	.word WorldMap_9_9
 .org 0x082C2FB8
 	.word WorldMap_9_10
-;World 10
+;World 10 World Map
 .org 0x082C24B8
 	.word WorldMap_10_1
 .org 0x082C3008
@@ -1130,7 +1366,7 @@ ShopChest32:
 	.word WorldMap_10_9
 .org 0x082C30E0
 	.word WorldMap_10_10
-;World 11
+;World 11 World Map
 .org 0x082C2580
 	.word WorldMap_11_1
 .org 0x082C3130
@@ -1342,6 +1578,111 @@ ShopChest32:
 	.word ShopChest32
 ;Post-Game Story
 
+
+;Talk Decompress Hook
+;Decompression Relocation
+.thumb
+
+
+;For reference on what registers go to what on arrival of function!
+;Take care to write down the addresses to make sense of this.
+;r0 = The address the game would normally decompress to.
+;r1 = The rom address where the normally compressed text is found.
+
+
+
+;To prevent the game from switching to the default reading address
+
+.org 0x080037A2
+	ldr r0, [r4, #0x10]
+.org 0x080037B4
+	nop
+
+;To change the game's decompression and reading addresses!
+;This now tells the game to look for the text in the rom instead of SlowRam
+.org 0x08BF1EB0
+Relocated_Func:
+;New Code
+	push	{r1-r3,r7} ;saves our addresses for later!
+	mov		r0, r1
+UpdateReadingAddress: ;This is the final piece before the the intended decompression function kicks in! This puts in our intended reading address for the reading function to use!
+	str		r0, [r4, #0x10]
+	b 		 BacktoOG
+BacktoOG:
+	pop		   {r1-r3,r7}
+    push       {r4,r5,r6,lr}					   ;080005a0 70 b5      
+    add        r4, r0, #0x0                          ;080005a2 04 1c      
+    add        r6, r1, #0x0                          ;080005a4 0e 1c      
+    ldr        r1, [r6, #0x0]                        ;080005a6 31 68      
+    mov        r0, #0xf0                            ;080005a8 f0 20      
+    and        r0, r1                               ;080005aa 08 40      
+    lsr        r0, r0, #0x4                          ;080005ac 00 09      
+    cmp        r0, #0x8                             ;080005ae 08 28      
+    bne        LAB_080005ba                        ;080005b0 03 d1      
+    mov        r0, #0xf                             ;080005b2 0f 20      
+    and        r1, r0                               ;080005b4 01 40      
+    add        r0, r1, #0x0                          ;080005b6 08 1c      
+    add        r0, #0x8                             ;080005b8 08 30      
+LAB_080005ba:                                                          
+    ldr        r1, [PTR_DAT_080005fc]               ;080005ba 10 49      
+    lsl        r0, r0, #0x2                          ;080005bc 80 00      
+    add        r0, r0, r1                            ;080005be 40 18      
+    ldr        r5, [r0, #0x0];=>DAT_0814defc         ;080005c0 05 68      
+    cmp        r5, #0x0                             ;080005c2 00 2d      
+    beq        LAB_0800060c                        ;080005c4 22 d0      
+    mov        r3, #0x0                             ;080005c6 00 23      
+    mov        r0, #0xfa                            ;080005c8 fa 20      
+    lsl        r0, r0, #0x18                         ;080005ca 00 06      
+    add        r1, r4, r0                            ;080005cc 21 18      
+    ldr        r0, [DAT_08000600]                   ;080005ce 0c 48      
+    cmp        r1, r0                               ;080005d0 81 42      
+    bhi        LAB_080005d6                        ;080005d2 00 d8      
+    mov        r3, #0x1                             ;080005d4 01 23      
+LAB_080005d6:                                                          
+    mov        r0, #0xfb                            ;080005d6 fb 20      
+    lsl        r0, r0, #0x18                         ;080005d8 00 06      
+    add        r1, r4, r0                            ;080005da 21 18      
+    ldr        r0, [DAT_08000604]                   ;080005dc 09 48      
+    cmp        r1, r0                               ;080005de 81 42      
+    bhi        LAB_080005e4                        ;080005e0 00 d8      
+    mov        r3, #0x1                             ;080005e2 01 23      
+LAB_080005e4:                                                          
+    ldr        r2, [PTR_DAT_08000608]               ;080005e4 08 4a      
+    lsl        r0, r3, #0x2                          ;080005e6 98 00      
+    lsl        r1, r5, #0x3                          ;080005e8 e9 00      
+    add        r0, r0, r1                            ;080005ea 40 18      
+    add        r0, r0, r2                            ;080005ec 80 18      
+    ldr        r2, [r0, #0x0];=>DAT_0814ded0          ;080005ee 02 68      
+    add        r0, r6, #0x0                          ;080005f0 30 1c      
+    add        r1, r4, #0x0                          ;080005f2 21 1c      
+; -- Flow Override: CALL_RETURN (CALL_TERMINATOR)                     
+    mov        r0, #0x1                             ;080005f8 01 20      
+    b          LAB_0800060e                        ;080005fa 08 e0
+.align 4	
+PTR_DAT_080005fc:                                                      
+    .word 0x0814DEFC                        ;080005fc fc de 14 08
+.align 4
+DAT_08000600:                                                          
+    .word 0x00017FFF                           ;08000600 ff 7f 01 00
+.align 4
+DAT_08000604:                                                           
+    .word 0x000003FF                          ;08000604 ff 03 00 00
+.align 4
+PTR_DAT_08000608:                                                       
+	.word 0x0814DECC                        ;08000608 cc de 14 08
+LAB_0800060c:                                                           
+    mov        r0, #0x0                             ;0800060c 00 20      
+LAB_0800060e:                                                           
+    pop        {r4,r5,r6}                          ;0800060e 70 bc      
+    pop        {r1}                                ;08000610 02 bc      
+    bx         r1									;08000612 08 47      
+.align 4
+BranchJump_Link:
+	bx 			r2
+;Pointer	
+.org 0x080037C4
+	.word Relocated_Func + 1
+ 
 	
 
 	

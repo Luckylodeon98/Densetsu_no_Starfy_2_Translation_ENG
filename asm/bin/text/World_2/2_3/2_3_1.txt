@@ -1,0 +1,25 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $E2
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Come to think of it, that <textcolor_d>Blimp<textcolor_0> researcher<line>
+Old Man Mechani lives near here...<line>
+<redname><diamond>Moe<line>
+Why dont'cha go and say hi?<line>
+<:c><line>
+<end>

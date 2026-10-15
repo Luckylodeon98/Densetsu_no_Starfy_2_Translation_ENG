@@ -34,9 +34,9 @@
 Oh! Hello Starfy.<line>
 I haven't seen you in a while-<line>
 <:c><line>
-<wait><:obj> <1> <6><line>
+<:obj> <1> <6><line>
 <:obj> <1> <1><0> <3> <1><line>
-<rname><diamond>Moe<line>
+<redname><diamond>Moe<line>
 Ms. Ruby~!!! <textcolor_d><heart><heart><heart><textcolor_0><line>
 [<wait_time> <6><0>]<line>
 <redname><diamond>Moe<line>
@@ -93,7 +93,7 @@ This is inexcusable, Puchi Ogura!<line>
 <wait><:obj> <1> <5> <0><line>
 <rname><diamond>Moe<line>
 Ms. Ruby, let me handle this!<line>
-I'll get back your precious<textcolor_d>furniture<textcolor_0>!<line>
+I'll get back your precious <textcolor_d>furniture<textcolor_0>!<line>
 <:c><line>
 <wait><:func> <8> <0> <7><2><line>
 <:obj> <2> <4><line>
@@ -114,8 +114,8 @@ You're not gonna just ignore this, are ya!?<line>
 <redname><diamond>Moe<line>
 Don't ya think it's shameful to<line>
 ignore someone who's in need!?<line>
+<:c>
 <wait><:obj> <1> <5> <0><line>
-<linealt>
 <rname><diamond>Moe<line>
 I got it! As punishment,<line>
 you're gonna go look for her stuff!<line>
@@ -188,21 +188,21 @@ HURRY UP AND FIND HER FURNITURE!!!<line>
 <:se><line>
 <:obj> <1> <4><line>
 <rname><diamond>Moe<line>
-//Will be redone after mage looks into the page!
-//u‚È‚ñ‚¾‚æ@ƒIƒƒF<line>
-//@‚Ç‚ñ‚È@<textcolor_d>w‚©‚®x<textcolor_0>‚©@‚í‚·‚ê‚½‚Á‚Ä<line>
-//@‚¢‚¤‚ñ‚¶‚á‚Ë‚¦‚¾‚ë‚¤‚È?v<line>
-//Temporary translation!
+////Will be redone after mage looks into the page!
+////ã€Œãªã‚“ã ã‚ˆã€€ã‚ªãƒ¡ã‚§<line>
+////ã€€ã©ã‚“ãªã€€<textcolor_d>ã€ã‹ãã€<textcolor_0>ã‹ã€€ã‚ã™ã‚ŒãŸã£ã¦<line>
+////ã€€ã„ã†ã‚“ã˜ã‚ƒã­ãˆã ã‚ã†ãª?ã€<line>
+////Temporary translation!
 What the heck?<line>
 Don't tell me ya already forgotten<line>
 which furniture you gotta find!<line>
 <redname><diamond>Moe<line>
-//End of Temporary Translation!
-//Will be redone after mage looks into the page!
-//u‚Á‚½‚­@‚µ‚å‚¤‚ª‚Ë‚¦‚È<line>
-//@‚¢‚¢‚©?Ruby‚³‚ñ‚Ì<line>
-//@‚©‚®‚ÍEEEv<line>
-//Temporary Translation!
+////End of Temporary Translation!
+////Will be redone after mage looks into the page!
+////ã€Œã£ãŸãã€€ã—ã‚‡ã†ãŒã­ãˆãª<line>
+////ã€€ã„ã„ã‹?Rubyã•ã‚“ã®<line>
+////ã€€ã‹ãã¯ãƒ»ãƒ»ãƒ»ã€<line>
+////Temporary Translation!
 Geez... Alright, listen!<line>
 The furniture you're looking for Ruby are...<line>
 <redname><diamond>Moe<line>
@@ -226,10 +226,10 @@ And her <textcolor_d>Seashell Chair<textcolor_0>.<line>
 <:obj> <4> <2><line>
 <:obj> <5> <2><line>
 <rname><diamond>Moe<line>
-//Will be redone after Mage looks into the page
-//uƒwƒ“‚È‚à‚ñ@‚à‚Á‚Ä‚­‚é‚ñ‚¶‚á<line>
-//@‚Ë‚¦‚¼!v<line>
-//Temporary Translation
+////Will be redone after Mage looks into the page
+////ã€Œãƒ˜ãƒ³ãªã‚‚ã‚“ã€€ã‚‚ã£ã¦ãã‚‹ã‚“ã˜ã‚ƒ<line>
+////ã€€ã­ãˆã!ã€<line>
+////Temporary Translation
 Don't bring anything else!<line>
 Ya understand?... Good! Now GO!<line>
 <wait><:sd><line>
@@ -300,10 +300,10 @@ Keep up the good work.<line>
 <:c><line>
 <wait><:obj> <1> <4><line>
 <rname><diamond>Moe<line>
-It was a piece of cake!<line>
+It was a piece of cake!...<line>
 <:obj> <1> <9> <2> <1><line>
-...There's still one thing missing,<line>
-Starf', so hurry up and find it!<line>
+There's still one thing missing Starf',<line>
+so hurry up and find it!<line>
 <:flagoff> <2><1><2><3><line>
 <:flagoff> <1><5><5><0><6><line>
 <:flagoff> <2><1><2><4><line>
@@ -312,19 +312,20 @@ Starf', so hurry up and find it!<line>
 <:flagoff> <1><5><5><0><8><line>
 <:flagoff> <2><1><0><5><line>
 <:end><line>
+//
 <wait>:<1><2><line>
 <:func> <2><2> <-><2><line>
 <:flagoff> <2><1><0><4><line>
 <:obj> <1> <4><line>
 <rname><diamond>Moe<line>
 Looks like ya finally found<line>
-the third piece of <textcolor_d>furniture<textcolor_0>!<line>
+the last piece of <textcolor_d>furniture<textcolor_0>!<line>
 <:c><line>
 <wait><:obj> <2> <4><line>
 <:obj> <1> <9> <2><line>
 <rname><diamond>Ruby<line>
 Thank you so much, Starfy.<line>
-May I see the last piece of furniture?<line>
+May I see it?<line>
 <wait><:func> <1><8> <1> <7><1><line>
 <:obj> <5> <1><0> <0> <1><line>
 [<wait_time> <3><0>]<line>
@@ -342,13 +343,13 @@ give you as thanks...<line>
 <rname><diamond>Moe<line>
 Don't worry about it!<line>
 But if you insist...<line>
-We could still go on that date...<line>
+There's still that da-<line>
 <:c><line>
 <wait><:obj> <2> <4><line>
 <rname><diamond>Ruby<line>
-Oh! That's right! I picked up something<line>
-lovely during yesterday's storm.<line>
-I'll give it to you, Starfy.<line>
+Oh! That's right!<line>
+I've picked up something<line>
+from yesterday's storm!<line>
 <:c><line>
 <wait><:obj> <1> <4><line>
 <rname><diamond>Moe<line>
@@ -359,8 +360,7 @@ So about our date...<line>
 <:flagon> <2><1><0><1><line>
 <rname><diamond>Ruby<line>
 It's through the <textcolor_d>door on the left<textcolor_0>.<line>
-It's unlocked so go ahead<line>
-and take your present with you.<line>
+It's unlocked, so go ahead!<line>
 <wait><:obj> <1> <4><line>
 <rname><diamond>Ruby<line>
 I truly do appreciate the help, Starfy.<line>
@@ -371,12 +371,12 @@ If you'll excuse me, I'm going back inside now.<line>
 <rname><diamond>Moe<line>
 But our date...<line>
 <redname><diamond>Moe<line>
-...............<line>
+.....<line>
 <wait><:obj> <1> <9> <2> <1><line>
 <:obj> <1> <5> <2><line>
 <rname><diamond>Moe<line>
-What're you lookin at, ya blockhead!?<line>
-Grrr...! I'm goin' on ahead!!!<line>
+What're ya lookin at, ya blockhead!?<line>
+Grrr... I'm goin' ahead!!!<line>
 <:flagoff> <2><1><3><3><line>
 <:flagoff> <1><5><5><0><9><line>
 <:flagoff> <2><1><3><4><line>
@@ -393,14 +393,15 @@ Grrr...! I'm goin' on ahead!!!<line>
 <:func> <1><0><line>
 <:func> <3> <2><line>
 <:exit><x_pos><$69><$74><line>
+//
 <wait>:<2><0><line>
 <:func> <2><2> <-><1><line>
 <:obj> <1> <4><line>
 <rname><diamond>Moe<line>
-//u‚¨‚»‚©‚Á‚½‚¶‚á@‚Ë‚¦‚©‚æ<line>
-//@‘‚­@o‚¹‚æ!ƒIƒ‰ƒIƒ‰!v<line>
-//Temporary Translation
-Geez... I was growin' a beard waitin' for ya!<ine>
+////ã€ŒãŠãã‹ã£ãŸã˜ã‚ƒã€€ã­ãˆã‹ã‚ˆ<line>
+////ã€€æ—©ãã€€å‡ºã›ã‚ˆ!ã‚ªãƒ©ã‚ªãƒ©!ã€<line>
+////Temporary Translation
+Geez... I was growin' a beard waitin' for ya!<line>
 Whatever... Just give it here and-WAIT A SEC!...<line>
 <:c><line>
 <wait><:func> <1><8> <1> <7><1><line>
@@ -409,73 +410,73 @@ Whatever... Just give it here and-WAIT A SEC!...<line>
 <:func> <1><3> <6><line>
 <:obj> <2> <4><line>
 <rname><diamond>Ruby<line>
-//uEE‚í‚é‚¢‚¯‚Ç@‚±‚Ì<textcolor_d>w‚©‚®x<textcolor_0>‚Í<line>
-//@‚í‚½‚µ‚Ì‚¶‚á@‚È‚¢‚íEE<$45>Ev<line>
-//Temporary Translation
+////ã€Œãƒ»ãƒ»ã‚ã‚‹ã„ã‘ã©ã€€ã“ã®<textcolor_d>ã€ã‹ãã€<textcolor_0>ã¯<line>
+////ã€€ã‚ãŸã—ã®ã˜ã‚ƒã€€ãªã„ã‚ãƒ»ãƒ»<$45>ãƒ»ã€<line>
+////Temporary Translation
 I'm sorry Starfy,<line>
-but this isn't the <textcolor_d>furniture<textcolor_0> I was asking for.<$45><line>
+but this isn't the <textcolor_d>furniture<textcolor_0> I was asking for.<line>
 <:c><line>
 <wait><:func> <1><8> <1> <7><2><line>
 <:obj> <5> <1><0> <0><line>
 <:obj> <1> <4><line>
 <:obj> <1> <9> <2><line>
 <rname><diamond>Moe<line>
-//u‚¦!?‚»‚ñ‚È@ƒoƒJ‚È!!<line>
-//@EEEEEEEEEEv<line>
-//Temporary Translation
+////ã€Œãˆ!?ãã‚“ãªã€€ãƒã‚«ãª!!<line>
+////ã€€ãƒ»ãƒ»ãƒ»ãƒ»ãƒ»ãƒ»ãƒ»ãƒ»ãƒ»ãƒ»ã€<line>
+////Temporary Translation
 Wait... What!? That can't be right!!<line>
 .............<line>
 <redname><diamond>Moe<line>
-//uEEE‚¢@‚¢‚â‚ !<line>
-//@‚»‚¤‚¾‚Æ@v‚Á‚Ä‚½‚ñ‚Å‚·‚æ!v<line>
-//Temporary Translation
+////ã€Œãƒ»ãƒ»ãƒ»ã„ã€€ã„ã‚„ã‚!<line>
+////ã€€ãã†ã ã¨ã€€æ€ã£ã¦ãŸã‚“ã§ã™ã‚ˆ!ã€<line>
+////Temporary Translation
 Wait a sec...<line>
 It is the wrong furniture!!!<line>
 What the heck Starf'!?<line>
 <:c><line>
 <wait><:obj> <2> <4><line>
 <rname><diamond>Ruby<line>
-//u‚Â‚¬‚Í@³‚µ‚¢@‚©‚®‚ğ<$F0><line>
-//@‚à‚Á‚Ä‚«‚Ä‚Ëv<line>
-//Temporary Translation
+////ã€Œã¤ãã¯ã€€æ­£ã—ã„ã€€ã‹ãã‚’<$F0><line>
+////ã€€ã‚‚ã£ã¦ãã¦ã­ã€<line>
+////Temporary Translation
 Could you try again<line>
 and look for the correct one please?<line>
 <:c><line>
 <wait><:obj> <1> <4><line>
 <rname><diamond>Moe<line>
-//u‚Í@‚Í‚¢‚Á!‚à‚¿‚ë‚ñ‚Å‚·!v<line>
-//Temporary Translation
+////ã€Œã¯ã€€ã¯ã„ã£!ã‚‚ã¡ã‚ã‚“ã§ã™!ã€<line>
+////Temporary Translation
 Why of course! Hehehe...<line>
 Just a second please.<line>
 <wait><:obj> <1> <9> <2> <1><line>
 <rname><diamond>Moe<line>
-//u‚·EEE<line>
-//@ƒXƒ^ƒtƒB[‚Á!!ƒRƒmƒ„ƒ[!v<line>
-//Temporary Translation
+////ã€Œã™ãƒ»ãƒ»ãƒ»<line>
+////ã€€ã‚¹ã‚¿ãƒ•ã‚£ãƒ¼ã£!!ã‚³ãƒãƒ¤ãƒ­ãƒ¼!ã€<line>
+////Temporary Translation
 Starf'!! Ya blockhead!<line>
 <redname><diamond>Moe<line>
 <:flagoff> <1><5><5><0><3><line>
 <:flagoff> <1><5><5><0><4><line>
 <:flagoff> <1><5><5><0><5><line>
 <:flagoff> <1><5><5><0><6><line>
-//u‚Í‚¶@‚©‚©‚¹‚â‚ªƒF‚Á‚Ä[!<line>
-//Temporary Translation
-Quit playin' around!<line>
+////ã€Œã¯ã˜ã€€ã‹ã‹ã›ã‚„ãŒã‚§ã£ã¦ãƒ¼!<line>
+////Temporary Translation
+Quit foolin' around,<line>
 <:flagoff> <1><5><5><0><7><line>
 <:flagoff> <1><5><5><0><8><line>
 <:flagoff> <1><5><5><0><9><line>
 <:flagoff> <1><5><5><1><0><line>
 <:flagoff> <1><5><5><1><1><line>
-//@‚Æ‚Á‚Æ‚Æ@‚¹‚¢‚©‚¢‚ğ<line>
-//Temporary Translation
-Go find the right funiture!
+////ã€€ã¨ã£ã¨ã¨ã€€ã›ã„ã‹ã„ã‚’<line>
+////Temporary Translation
+and find the right funiture!<line>
 <:flagoff> <2><1><1><3><line>
 <:flagoff> <2><1><1><4><line>
 <:flagoff> <2><1><1><5><line>
 <:flagoff> <2><1><2><3><line>
 <:flagoff> <2><1><2><4><line>
-//@‚³‚ª‚µ‚Ä‚±[‚¢‚Á!v<line>
-//Temporary Translation
+////ã€€ã•ãŒã—ã¦ã“ãƒ¼ã„ã£!ã€<line>
+////Temporary Translation
 And pick up the pace while you're at it!
 <:flagoff> <2><1><2><5><line>
 <:flagoff> <2><1><3><3><line>

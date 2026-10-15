@@ -1,0 +1,95 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $5E8
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1> <1><line>
+<:se><line>
+<:if> <2><3><0><2> <go> <5><0><line>
+<:if> <2><3><0><0> <go> <5><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <2><3><0><0><line>
+<rname><diamond>Old Man Mechani<line>
+Well, well, well, if it isn't Starfy!<line>
+It's been a while!<line>
+<redname><diamond>Old Man Mechani<line>
+Would you like to help me with<line>
+my wonderful research again?<line>
+<wait><:sd><line>
+<rname><diamond>Old Man Mechani<line>
+Would you? Hm?<line>
+<rname>         Help him!<line>
+<rname>         Don't help him!<line>
+:<$64><$65><$63><$69><$64><$65> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait><:se><$6C> <0> <go> <2><0><line>
+<:se><$6C> <1> <go> <3><0><line>
+<wait>:<3><0><line>
+<rname><diamond>Old Man Mechani<line>
+What in the!?...<line>
+Kids these days!...<line>
+Absolutely shameful!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:exit><x_pos><$69><$74><line>
+<wait>:<5><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<rname><diamond>Old Man Mechani<line>
+Do you want to ride the <textcolor_d>Blimp<textcolor_0><line>
+         Yes<line>
+         No<line>
+:<$64><$65><$63><$69><$64><$65> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait><:se><$6C> <1> <go> <4><0><line>
+:<2><0><line>
+<rname><diamond>Old Man Mechani<line>
+Hohoho, You truly understand<line>
+the magnificence of Blimps!<line>
+<redname><diamond>Old Man Mechani<line>
+You remember how to use the Blimp, yes?<line>
+...Huh? You forgot?<line>
+<redname><diamond>Old Man Mechani<line>
+I suppose it can't be helped.<line>
+In that case, make sure to read<line>
+the <textcolor_d>sign<textcolor_0> on the way!<line>
+<wait><:flagon> <2><3><0><1><line>
+<:func> <1><8> <1> <7><4><line>
+<rname><diamond>Old Man Mechani<line>
+I'll be just up ahead.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:exit><line>
+<wait>:<4><0><line>
+<rname><diamond>Old Man Mechani<line>
+What the heck are you doing?!<line>
+Show your elders some respect kid!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:exit><line>
+<wait>:<5><0><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Old Man Mechani<line>
+Oh, why if it isn't Starfy!<line>
+I was filled with excitment back there.<line>
+<redname><diamond>Old Man Mechani<line>
+I'm getting more and more passionate for<line>
+<textcolor_d>Blimp<textcolor_0> research!<line>
+<redname><diamond>Old Man Mechani<line>
+Right now, I'm researching something<line>
+for the future!<line>
+Just wait and see!<line>
+<end>

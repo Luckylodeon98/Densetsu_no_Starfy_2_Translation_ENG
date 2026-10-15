@@ -1,0 +1,97 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $642
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1> <2><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:if> <2><3><0><2> <go> <1><line>
+<:func> <2><2> <-><2><line>
+<:flagon> <2><3><0><2><line>
+<:obj> <2> <4><line>
+<:func> <1><8> <1> <5><2><line>
+[<wait_time> <3><0>]<line>
+<rname><diamond>Old Man Mechani<line>
+Looks like you're handling<line>
+the Blimp just as you did before.<line>
+<redname><diamond>Old Man Mechani<line>
+You'll find <textcolor_d>Blimps<textcolor_0> all over,<line>
+so feel free to use them if you wish.<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Hold it, geezer!<line>
+I'm the one who helped ya up here!<line>
+Don't I get somethin' too?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Old Man Mechani<line>
+Fair enough...<line>
+I picked up something unusual<line>
+during the storm yesterday...<line>
+<redname><diamond>Old Man Mechani<line>
+For helping me,<line>
+I'll give that to you as well.<line>
+<redname><diamond>Old Man Mechani<line>
+It's just through <textcolor_d>the door behind me<textcolor_0>.<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <0><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+If ya wanna go back down, Starf',<line>
+the door to the left's a shortcut.<line>
+<redname><diamond>Moe<line>
+Likewise, if ya wanna get back up here,<line>
+I'm pretty sure there's another shortcut.<line>
+<redname><diamond>Moe<line>
+Y'know,<line>
+I'm pretty sure that you can go<line>
+through that door down below now.<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Old Man Mechani<line>
+I'll unlock the door that leads<line>
+back down to my workshop.<line>
+Take care, you two!<line>
+<:c><line>
+<wait><:sd><line>
+<:obj> <1> <9> <2> <0><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><1> <0> <1><line>
+<:obj> <2> <2><line>
+<:flagon> <2><3><0><3><line>
+<:flagon> <1><5><7><0><0><line>
+<:func> <1><6> <1><line>
+<:obj> <0> <9> <2> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><textspeed><$64><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+If ya wanna get back down,<line>
+just head to the door on the left.<line>
+It's a shortcut, ya know.<line>
+<redname><diamond>Moe<line>
+Likewise, if ya wanna get back up here,<line>
+I'm pretty sure there's another<line>
+shortcut around here.<line>
+<redname><diamond>Moe<line>
+If ya stay on the Blimp though,<line>
+ya can't take the shortcut doors.<line>
+So think twice before goin' on another ride.<line>
+<end>

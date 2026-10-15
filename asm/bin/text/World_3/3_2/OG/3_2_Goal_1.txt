@@ -1,0 +1,22 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $F4
+
+//<:sd><line>
+<:func> <3> <2> <2><line>
+<:func> <0> <0><line>
+<:se><line>
+たからばこの中には<line>
+グッズ<textcolor_d>『アロハシャツ』<textcolor_1>が<line>
+入っていたよ!<line>
+<:c><line>
+<wait>カメッコたちは　べつの『しま』へと<line>
+にげていきましたよ<line>
+はやくおいかけて　つかまえよう<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <1> <0><line>
+<:func> <2> <2> <2><line>
+<:exit><line>
+<end>

@@ -1,0 +1,62 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 3-4-2
+//Block Range: $0 - $40A
+
+//<:if> <3><4><1><0> <go> <1><line>
+<:flagon> <3><4><1><0><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>ガガンモ<line>
+「あー!　うめぇうめぇ!<line>
+　やっぱ『おでん』は<line>
+　『がんもどき』にかぎるね!」<line>
+<redname><diamond>ガガンモ<line>
+「お?　キミ!　いいカラダを<line>
+　しているね!」<line>
+<redname><diamond>ガガンモ<line>
+「どうだい?　ボクのワザを<line>
+　おぼえてみる気はヘないかい?」<line>
+<redname><diamond>ガガンモ<line>
+「なづけて<textcolor_d>『ムササビじゃんぷ』<textcolor_0>だ!<line>
+　大きな　あなも　ひとっとび!<line>
+　きっと　この先　やくにたつよ」<line>
+<redname><diamond>ガガンモ<line>
+「となりのトビラに入って<line>
+　ここまで　もどってくるんだ<line>
+　さあ!　れんしゅうれんしゅう!」<line>
+<:c><line>
+<wait><:sd><line>
+<linealt>
+<:func> <4><line>
+<:func> <1> <3><line>
+<:flagon> <3><4><0><9><line>
+<:func> <1><8> <1> <7><4><line>
+<:func> <2><4> <9><9><line>
+<:func> <1><4> <2> <4><line>
+<:obj> <0> <2><line>
+<:func> <1><8> <1> <4><9><line>
+[<wait_time> <2><0>]<line>
+<:obj> <0> <1><1> <2> <4><0><line>
+<:obj> <0> <2> <1><line>
+<:func> <1><4> <2> <4><8><line>
+:<$66><$6C><$61><go><$66><$66> <3><4><0><9><line>
+<:flagon> <1><5><0><0><3><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>ガガンモ<line>
+「ムササビじゃんぷには<line>
+　なれたかい「?」<line>
+<redname><diamond>ガガンモ<line>
+「え?　なんで『モモンガじゃんぷ』<line>
+　じゃないのかって?」<line>
+<redname><diamond>ガガンモ<line>
+「いいじゃん　いいじゃん<line>
+　そんなの　どうでもいいじゃん」<line>
+<redname><diamond>ガガンモ<line>
+「ボクは　『がんもどき』さえ<line>
+　たべられれば　ほかのことは<line>
+　どうでもいいのさー・・」<line>
+<linealt>
+<:end><line>
+<end>

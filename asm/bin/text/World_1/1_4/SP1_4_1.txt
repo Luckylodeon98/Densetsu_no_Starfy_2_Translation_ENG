@@ -1,0 +1,11 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Save Point Message
+//Block Range: $0 - $AA
+
+:func 22 -1<line>
+<textcolor_d>Find three keys that have the same shape as the locks<textcolor_0>,<line>
+and you'll be on your way to take down<line>
+the mischievous Konk and Puchi Ogura 1!<line>
+:end<line>
+<end>

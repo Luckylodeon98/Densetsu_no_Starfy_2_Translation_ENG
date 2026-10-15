@@ -1,0 +1,74 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $42C
+
+//<:flagon> <3><1><0><3><line>
+<:flagon> <3><1><1><4><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>キョロスケ<line>
+「よし　だんだん<textcolor_d>『こえ』<textcolor_0>が<line>
+　近くなってきてんぞ!<line>
+　どうやら　この　近くだな・・」<line>
+<:c><line>
+<wait><:flagon> <3><1><1><4><line>
+<:flagon> <3><1><1><1><line>
+<:func> <4><line>
+[<wait_time> <6><0>]<line>
+<rname><diamond>キョロスケ<line>
+「へ・<$45>・へ・・へーっきしょん!<line>
+　うう・・それにしても<line>
+　かぜが　きついなあ」<line>
+<:c><line>
+<wait><:flagon> <3><1><1><2><line>
+<:func> <4><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <9> <2><line>
+<rname><diamond>キョロスケ<line>
+「お・・おいおい・・ほんかくてきに<line>
+　かぜがきついぞ　こりゃ・・<line>
+　なんだ?　タイフーか?」<line>
+<:c><line>
+<wait><:flagon> <3><1><1><3><line>
+<:func> <4><line>
+[<wait_time> <1><0>]<line>
+<:obj> <1> <5> <1><line>
+<:func> <8> <0> <1><5><line>
+<:obj> <1> <7> <1><6> <0> <8><0><line>
+<:func> <1><8> <1> <6><5><line>
+<:func> <1><4> <1> <3><6><line>
+<rname><diamond>キョロスケ<line>
+「うわぁぁぁ!」<line>
+[<wait_time> <4><0>]<line>
+<wait><:obj> <1> <5> <2><line>
+<rname><diamond>キョロスケ<line>
+「クソー!　こんなことで<line>
+　へこたれる　キョロスケさまじゃ<line>
+　ねーぜ!」<line>
+<wait><:func> <8> <0> <9><9><line>
+<rname><diamond>キョロスケ<$50><line>
+「オレさまは　アメニモマケズ<line>
+　カゼニモマケズ　じょうぶなカラダを<line>
+　もってんだ!　とりゃぁぁぁぁ!」<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <1> <9> <2><line>
+<:obj> <1> <7> <8><2> <1><2><8> <3><0><line>
+[<wait_time> <7><0>]<line>
+<:obj> <1> <7> <2><0><0> <1><6><0> <4><0><line>
+[<wait_time> <3><0>]<line>
+<:sd><line>
+<:func> <2> <2><line>
+<:obj> <1> <2><line>
+<:func> <1> <0><line>
+<:func> <1><0><line>
+<:func> <8> <0> <9><9><line>
+<:func> <3> <2><line>
+:<$66><$6C><$61><go><$66><$66> <3><1><1><4><line>
+<:flagon> <3><1><1><0><line>
+<:exit><line>
+<end>

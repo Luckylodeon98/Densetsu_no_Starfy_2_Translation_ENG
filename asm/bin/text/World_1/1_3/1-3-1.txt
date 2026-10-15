@@ -91,7 +91,7 @@ Hurry up and find this shop already!<line>
 <:func> <6> <1><line>
 <:se><line>
 <:func> <2><2> <-><1><line>
-<rname><diamond>Moe<line><line>
+<rname><diamond>Moe<line>
 Gotta admit, I'm curious about this memo...<line>
 <textcolor_d>9 o'clock<textcolor_0>, <textcolor_d>12 o'clock<textcolor_0>, <textcolor_d>3 o'clock<textcolor_0>, <textcolor_d>6 o'clock<textcolor_0>...<line>
 <redname><diamond>Moe<line>

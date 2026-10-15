@@ -1,0 +1,27 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 2-2-1
+//Block Range: $0 - $E4
+
+//<:flagon> <3><2><0><4><line>
+<:sd><line>
+<:func> <1><1> <1><line>
+<:obj> <1> <0> <3><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <0> <2><line>
+[<wait_time> <2><0>]<line>
+<:flagon> <3><2><0><3><line>
+<:func> <1><8> <1> <5><8><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <1><2> <2><3> <-><3><5><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <2><line>
+[<wait_time> <3><0>]<line>
+:<$66><$6C><$61><go><$66><$66> <3><2><0><3><line>
+[<wait_time> <3><0>]<line>
+<:func> <1><1><line>
+<:se><line>
+<:exit><line>
+<end>

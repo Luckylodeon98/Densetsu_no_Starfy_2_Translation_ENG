@@ -1,0 +1,62 @@
+//GAME NAME:		Densetsu no Stafy 2
+
+//BLOCK #000 NAME:		World 3-1-1
+//Block Range: $0 - $30C
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:flagon> <3><1><0><0><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:func> <7> <2><5><5> <3> <0><line>
+<:func> <1><3> <9><line>
+<:obj> <1> <5> <1><line>
+<:func> <8> <0> <1><9><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+AUGH!<line>
+What the heck was THAT!?<line>
+[<wait_time> <6><0>]<line>
+<wait><:sd><line>
+<:func> <7><line>
+<:obj> <1> <5> <0><line>
+<:func> <8> <0> <9><9><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Sheesh... though that might've<line>
+bursted my eardrums or somthin'!<line>
+<redname><diamond>Moe<line>
+Still... I gotta wonder who's<line>
+doin' all that screamin' all of the sudden?...<line>
+<redname><diamond>Moe<line>
+Kinda sounded like cryin', dont'cha think?<line>
+<redname><diamond>Moe<line>
+Hm... Well Whatever.<line>
+We'll probably find out<line>
+who's cryin' if we just keep movin'.<line>
+<redname><diamond>Moe<line>
+Alright Starf' Let's go!<line>
+that <textcolor_d>voice<textcolor_0> is comin' from this way!<line>
+Don't fall behind!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <7> <2><2><0> <2><2><3> <2><0><line>
+[<wait_time> <6><0>]<line>
+<:func> <2> <2><line>
+<:obj> <1> <2><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:flagon> <3><1><0><1><line>
+<linealt>
+<:exit><line>
+<end>
